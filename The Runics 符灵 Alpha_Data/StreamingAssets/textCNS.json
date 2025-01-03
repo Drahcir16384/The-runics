@@ -348,11 +348,27 @@
     ],
     "cards_descriptions":
     [
+        {"key":"","name":"卡牌名称","simple_description":"卡牌描述","full_description":"", "favour_description":""},
+        {"key":"plunder","name":"搜刮装备","simple_description":"背包中获得2件随机装备。","full_description":"", "favour_description":""},
+        {"key":"craftingHammer","name":"铁匠锤","simple_description":"获得3次锻造台使用次数。","full_description":"", "favour_description":""},
+        {"key":"greed","name":"翻捡钱袋","simple_description":"获得2 * 波次的$。","full_description":"", "favour_description":""},
+        {"key":"rainforcement","name":"呼唤增援","simple_description":"获得3个随机符灵。","full_description":"", "favour_description":""},
+        {"key":"Insight","name":"分析弱点","simple_description":"你的符灵获得5%暴击几率。","full_description":"", "favour_description":""},
+        {"key":"Conduction","name":"传导","simple_description":"你的符灵获得5%弹射攻击几率。","full_description":"", "favour_description":""},
+        {"key":"Moonlight","name":"月光","simple_description":"你的符灵获得5%多重攻击几率。","full_description":"", "favour_description":""},
+        {"key":"DragonBreathe","name":"龙息","simple_description":"你的符灵获得5%爆炸攻击几率。","full_description":"", "favour_description":""},
+
+
         {"key":"nurturer","name":"培育者","simple_description":"合成时按照特定顺序摆放，则变为强化原符灵。","full_description":"", "favour_description":""},
-        {"key":"forbidden","name":"禁忌学者","simple_description":"解锁6阶符灵。合成时按照特定配方，即可获得它们。","full_description":"", "favour_description":""},
+        {"key":"IceForbidden","name":"寒冰禁咒","simple_description":"解锁6阶符灵寒冰射手。利用特定的三个符灵来合成，即可获得它。","full_description":"", "favour_description":""},
+        {"key":"FireForbidden","name":"火焰禁咒","simple_description":"解锁6阶符灵恶魔。利用特定的三个符灵来合成，即可获得它。","full_description":"", "favour_description":""},
+        {"key":"WindForbidden","name":"风暴禁咒","simple_description":"解锁6阶符灵远古风灵。利用特定的三个符灵来合成，即可获得它。","full_description":"", "favour_description":""},
+        {"key":"SunForbidden","name":"太阳禁咒","simple_description":"解锁6阶符灵逐日者。利用特定的三个符灵来合成，即可获得它。","full_description":"", "favour_description":""},
+        {"key":"WorldForbidden","name":"世界禁咒","simple_description":"解锁6阶符灵世界古树。利用特定的三个符灵来合成，即可获得它。","full_description":"", "favour_description":""},
+        {"key":"DoomForbidden","name":"末日禁咒","simple_description":"解锁6阶符灵终末猎手。利用特定的三个符灵来合成，即可获得它。","full_description":"", "favour_description":""},
         {"key":"magician","name":"魔术师","simple_description":"提升攻击时回复的法力。","full_description":"", "favour_description":""},
         {"key":"miner","name":"挖掘者","simple_description":"大幅提升采矿效率。","full_description":"", "favour_description":""},
-        {"key":"seer","name":"目明者","simple_description":"可以在图鉴中选择符灵，使其自动被购买。","full_description":"", "favour_description":""},
+        {"key":"seer","name":"全知者","simple_description":"可以在图鉴中选择符灵，使其自动被购买。","full_description":"", "favour_description":""},
 
         {"key":"goldenBoardStair","name":"金色棋盘阶梯","simple_description":"金色棋盘期间每击杀一个敌人便提升奖励倍数。","full_description":"", "favour_description":""},
         {"key":"goldenBoardStrengthen","name":"金色棋盘强化","simple_description":"降低金色棋盘的冷却。","full_description":"", "favour_description":""},
