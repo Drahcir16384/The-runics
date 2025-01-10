@@ -77,7 +77,7 @@
 
         {"key":"Awaken","name":"死亡苏醒","simple_description":"被动：提升大量攻击力。受到伤害时能获得集中。拥有集中时才能进行攻击。","full_description":"被动：提升 !X! %攻击力。受到伤害时获得 !Y! 层集中。拥有集中时才能进行攻击。\n集中：攻击伤害增加50%。每有1层集中，额外提升1%。每次触发，层数-1。", "favour_description":""},
         {"key":"MagicHalo","name":"魔法光环","simple_description":"使周围的友方符灵获得护盾和荆棘。","full_description":"使周围的友方符灵获得自身攻击力 !D! %的护盾和荆棘。\n护盾：抵消将要到来的伤害。\n荆棘：受到伤害时，使敌人失去等同于层数的生命。每次发动层数减半。", "favour_description":""},
-        {"key":"Heaven","name":"天国","simple_description":"被动：每当你给予友方符灵一种正面效果，再随机给予一种（不能循环叠加）。\n主动：进行一次爆炸攻击，给予周围的友方治疗与护盾。","full_description":"被动：每当你给予友方符灵一种正面效果，再随机给予一种（不能循环叠加）。\n主动：进行一次爆炸攻击，给予友方 !D! %攻击力的治疗与护盾。\n护盾：抵消将要到来的伤害。", "favour_description":""},
+        {"key":"Heaven","name":"天国","simple_description":"被动：每当你给予友方符灵一种正面效果，再随机给予一种（不能循环叠加）。\n主动：给予周围的友方符灵治疗与护盾。","full_description":"被动：每当你给予友方符灵一种正面效果，再随机给予一种（不能循环叠加）。\n主动：给予周围的友方符灵 !D! %攻击力的治疗与护盾。\n护盾：抵消将要到来的伤害。", "favour_description":""},
         {"key":"Curse","name":"极恶诅咒","simple_description":"被动：每当你给予敌人一种负面效果，再随机给予一种（不能循环叠加）。\n主动：进行一次爆炸攻击，给予敌人虚弱。","full_description":"被动：每当你给予敌人一种负面效果，再随机给予一种（不能循环叠加）。\n主动：进行一次爆炸攻击，给予敌人 !X! 层虚弱。\n灵魂契约：与相同层数的易伤。\n灵魂契约：如果生命值大于50%，失去10%生命值来发动效果。\n虚弱：攻击伤害降低25%。每有1层虚弱，额外降低1%。每次触发，层数-1。\n易伤：受到伤害增加50%。每有1层易伤，额外提升1%。每次触发，层数-1。", "favour_description":""},
         {"key":"EnergyTransformation","name":"能量转换","simple_description":"晶体印记：暗言师形态攻击时获得晶体印记。\n毁灭之眼：在毁灭者形态时，每有1层毁灭之眼，攻击伤害提升100%。\n主动：从暗言师形态变身为毁灭者形态，将所有晶体印记变为毁灭之眼。",
             "full_description":"晶体印记：暗言师形态攻击时获得一层晶体印记。\n毁灭之眼：在毁灭者形态时，每有1层毁灭之眼，攻击伤害提升100%。\n主动：从暗言师形态变身为毁灭者形态 !X! 秒，将所有晶体印记变为毁灭之眼。", "favour_description":""},
@@ -211,8 +211,8 @@
 
         {"key":"Assassin0","name":"刺客","simple_description":"独特符灵节点","full_description":"可以进行仅对于 刺客 符灵的升级", "favour_description":""},
         {"key":"Assassin1","name":"经验值加成（刺客）","simple_description":"刺客 获得的经验值提升","full_description":"经验值加成（刺客）", "favour_description":""},
-        {"key":"Assassin2","name":"暴击几率（恩赐解脱）","simple_description":"牧师 羁绊的暴击几率提升","full_description":"暴击几率（恩赐解脱）", "favour_description":""},
-        {"key":"Assassin3","name":"暴击伤害（恩赐解脱）","simple_description":"牧师 羁绊的暴击伤害提升","full_description":"暴击伤害（恩赐解脱）", "favour_description":""},
+        {"key":"Assassin2","name":"暴击几率（恩赐解脱）","simple_description":"刺客 羁绊的暴击几率提升","full_description":"暴击几率（恩赐解脱）", "favour_description":""},
+        {"key":"Assassin3","name":"暴击伤害（恩赐解脱）","simple_description":"刺客 羁绊的暴击伤害提升","full_description":"暴击伤害（恩赐解脱）", "favour_description":""},
 
         {"key":"Knight0","name":"骑士","simple_description":"独特符灵节点","full_description":"可以进行仅对于 骑士 符灵的升级", "favour_description":""},
         {"key":"Knight1","name":"经验值加成（骑士）","simple_description":"骑士 获得的经验值提升","full_description":"经验值加成（骑士）", "favour_description":""},
@@ -383,7 +383,7 @@
         {"key":"FireForbidden","name":"火焰禁咒","simple_description":"解锁6阶符灵恶魔。利用特定的三个符灵来合成，即可获得它。","full_description":"", "favour_description":""},
         {"key":"WindForbidden","name":"风暴禁咒","simple_description":"解锁6阶符灵远古风灵。利用特定的三个符灵来合成，即可获得它。","full_description":"", "favour_description":""},
         {"key":"SunForbidden","name":"太阳禁咒","simple_description":"解锁6阶符灵伊卡洛斯。利用特定的三个符灵来合成，即可获得它。","full_description":"", "favour_description":""},
-        {"key":"WorldForbidden","name":"世界禁咒","simple_description":"解锁6阶符灵世界古树。利用特定的三个符灵来合成，即可获得它。","full_description":"", "favour_description":""},
+        {"key":"WorldForbidden","name":"世界禁咒","simple_description":"解锁6阶符灵世界树守护者。利用特定的三个符灵来合成，即可获得它。","full_description":"", "favour_description":""},
         {"key":"DoomForbidden","name":"末日禁咒","simple_description":"解锁6阶符灵终末猎手。利用特定的三个符灵来合成，即可获得它。","full_description":"", "favour_description":""},
 
 
@@ -411,10 +411,12 @@
         {"key":"flashOrbStrengthen","name":"猛禽-强化","simple_description":"提升猛禽的攻击速度。","full_description":"", "favour_description":""},
         {"key":"flashOrbUnbound","name":"猛禽-启封","simple_description":"如果你激活了猛禽，其等级提升1。","full_description":"", "favour_description":""},
 
-        {"key":"nurturer","name":"培育者","simple_description":"合成时按照特定顺序摆放，则变为强化原符灵。","full_description":"", "favour_description":""},
-        {"key":"magician","name":"魔术师","simple_description":"提升攻击时回复的法力。","full_description":"", "favour_description":""},
-        {"key":"miner","name":"挖掘者","simple_description":"大幅提升采矿效率。","full_description":"", "favour_description":""},
-        {"key":"seer","name":"全知者","simple_description":"可以在图鉴中选择符灵，使其自动被购买。","full_description":"", "favour_description":""}
+        {"key":"nurture","name":"哺育","simple_description":"合成时将一个符灵放在输出栏，则会将材料符灵的经验值强化它。","full_description":"", "favour_description":""},
+        {"key":"magic","name":"魔术","simple_description":"攻击时将会额外回复0.5法力。","full_description":"", "favour_description":""},
+        {"key":"swift","name":"疾行","simple_description":"提升符灵的经验值获取50%。","full_description":"", "favour_description":""},
+        {"key":"extraction","name":"萃取","simple_description":"采矿效率提升100%。","full_description":"", "favour_description":""},
+        {"key":"seer","name":"全知","simple_description":"可以在【Q】图鉴中选择符灵，使其在找到时即可自动被购买。","full_description":"", "favour_description":""},
+        {"key":"scolar","name":"博学","simple_description":"提升阅读上限10e3。","full_description":"", "favour_description":""}
 
 
     ]
