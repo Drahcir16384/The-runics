@@ -1,0 +1,649 @@
+{
+    "runic_descriptions":
+    [
+        {"key":"Archill","name":"Archill","simple_description":"Attacks can multi attack, slow enemies, and increase damage taken by slowed enemies. Can shoot a barrage of scattering projectiles.","full_description":"--", "favour_description":""},
+        {"key":"TheDemon","name":"Demon","simple_description":"Greatly increases attack damage and applies burn, vulnerability, and knockback. Attacks become circular.","full_description":"--", "favour_description":""},
+        {"key":"AncientWind","name":"Ancientwind Spirit","simple_description":"Greatly boosts the attack speed and range of nearby allied runics.","full_description":"--", "favour_description":""},
+        {"key":"SunChaser","name":"Icarus","simple_description":"The farther the attack projectiles travel, the higher the damage dealt.","full_description":"--", "favour_description":""},
+        {"key":"WorldTree","name":"Worldtree Protector","simple_description":"Grants all nearby allied runics all available positive effects.","full_description":"--", "favour_description":""},
+        {"key":"EnderHunter","name":"Ender Hunter","simple_description":"Fires the Ender Shot, applying all negative effects.","full_description":"--", "favour_description":""},
+
+        {"key":"BladeFeather","name":"Blade Feather","simple_description":"High frequency attacks and applies bleed.","full_description":"--", "favour_description":""},
+        {"key":"FiveStarGeneral","name":"Five-Star General","simple_description":"Give adjacent runics frenzy.","full_description":"--", "favour_description":""},
+        {"key":"ArtificialDeath","name":"Artificial Death","simple_description":"The death awakens after taken attack.","full_description":"--", "favour_description":""},
+        {"key":"GriffinRider","name":"Griffin Rider","simple_description":"Give friendly runics around shield and thorns.<i>World Ancestrals.</i>","full_description":"--", "favour_description":""},
+        {"key":"LightDragon","name":"Light Dragon","simple_description":"Applies regen and other random positive effects to allied runics. <i>World Ancestrals.</i>","full_description":"--", "favour_description":""},
+        {"key":"UnderGuard","name":"Under Guard","simple_description":"Applies weak and other random negative effects. <i>Demon's feast.</i>","full_description":"--", "favour_description":""},
+        {"key":"ShadowSpeaker","name":"ShadowSpeaker / Destroyer","simple_description":"Shapeshifter, deal massive damage in destroyer form.","full_description":"--", "favour_description":""},
+        {"key":"Cain","name":"Cain","simple_description":"Trigger mining effect on healed.","full_description":"--", "favour_description":""},
+        {"key":"WolfAlpha","name":"Wolf Alpha","simple_description":"Give friendly runics focus.<i>World Ancestrals.</i>","full_description":"--", "favour_description":""},
+        {"key":"Sunlit","name":"The Sunlit","simple_description":"Charge and explode!<i>Long may the sun shine!</i>","full_description":"--", "favour_description":""},
+        {"key":"GlaringElemental","name":"Glaring Elemental","simple_description":"Blind Enemies.<i>Long may the sun shine!</i>","full_description":"--", "favour_description":""},
+        {"key":"WatchtowerBomber","name":"Watchtower Bomber","simple_description":"<I'm free>","full_description":"--", "favour_description":""},
+        {"key":"TheWizard","name":"The Wizard","simple_description":"Summon magical meteor.<i>Butterfly effects.</i>","full_description":"--", "favour_description":""},
+        {"key":"SkyDragon","name":"Sky Dragon","simple_description":"Breathe of huge fireballs.<i>Demon's feast.</i>","full_description":"--", "favour_description":""},
+        {"key":"MistElemental","name":"Mist Elemental","simple_description":"Regens mana for all friendly runics.<i>Butterfly effects.</i>","full_description":"--", "favour_description":""},
+        {"key":"AngelOfSentance","name":"Angel Of Sentance","simple_description":"Deal % damage to random enemies.","full_description":"--", "favour_description":""},
+        {"key":"SpottedJellyfish","name":"Spotted Jellyfish","simple_description":"Poison enemies.","full_description":"--", "favour_description":""},
+        {"key":"MosasaurBones","name":"Whale Skeleton","simple_description":"Periodically gains Eternity effect.","full_description":"--", "favour_description":""},
+        {"key":"AstralKnight","name":"Astral Knight","simple_description":"Can absorb massive damage.","full_description":"--", "favour_description":""},
+        {"key":"KingSlayer","name":"King Slayer","simple_description":"Deal massive damage to bosses.<i>Doom survivors.</i>","full_description":"--", "favour_description":""},
+        {"key":"Lenora'sSubmarine","name":"Lenora's Submarine","simple_description":"Travels backward in time, letting the enemies go back to the spawn point.","full_description":"--", "favour_description":""},
+        {"key":"ElementalArtisan","name":"Elemental Artisan","simple_description":"Mitigate dacay rate of elemental vitality.<i>Butterfly effects.</i>","full_description":"--", "favour_description":""},
+        {"key":"TidalCaller","name":"Tidal Caller","simple_description":"Speed up all your runicer's abilities.","full_description":"--", "favour_description":""},
+        {"key":"Harvester","name":"Harvester","simple_description":"Deal AOE damage and volunerable.","full_description":"--", "favour_description":""},
+        {"key":"BoulderElemental","name":"Boulder Elemental","simple_description":"Attack speed was slowed. Knockback enemies.","full_description":"--", "favour_description":""},
+        {"key":"DarkElemental","name":"Dark Elemental","simple_description":"Increases the damage enemies taken.","full_description":"--", "favour_description":""},
+        {"key":"Raptor","name":"Raptor","simple_description":"Can strike multiple targets.","full_description":"--", "favour_description":""},
+        {"key":"Hound","name":"Hound","simple_description":"Applies bleed to enemies, increasing the damage they take.","full_description":"--", "favour_description":""},
+        {"key":"SpiritSmith","name":"Spirit Smith","simple_description":"Empowers friendly Runics in front and behind.","full_description":"--", "favour_description":""},
+        {"key":"FrostElemental","name":"Frost Elemental","simple_description":"Attacks slow enemies. Freezes surrounding blue tiles. <i>Cold Blood.</i>","full_description":"--", "favour_description":""},
+        {"key":"Bishop","name":"Bishop","simple_description":"Heals allied Runics.","full_description":"--", "favour_description":""},
+        {"key":"Web Builder","name":"Webbuilder Spider","simple_description":"Shoots webs to entangle enemies. <i>Doom survivors.</i>","full_description":"--", "favour_description":""},
+        {"key":"Ragefire Elemental","name":"Ragefire Elemental","simple_description":"Apply burn to enemies when they were spawned. Attacks explodes on burning enemies. <i>Demon's feast.</i>","full_description":"--", "favour_description":""},
+        {"key":"Necromancer","name":"Necromancer","simple_description":"Curses enemies so they fight for you after death.","full_description":"--", "favour_description":""},
+        {"key":"BlackDragon Emperor","name":"BlackDragon Emperor","simple_description":"Unleashes a large area breath attack.","full_description":"--", "favour_description":""},
+        {"key":"LaserWalker","name":"Laser Walker","simple_description":"Grants mining effect upon killing enemies. <i>Long may the sun shine!</i>","full_description":"--", "favour_description":""},
+        {"key":"Lightning Elemental","name":"Lightning Elemental","simple_description":"Chain lightning attacks.","full_description":"--", "favour_description":""},
+        {"key":"Skeleton Archer","name":"Skeleton Archer","simple_description":"Ranged attacker. <i>Cold Blood.</i>","full_description":"--", "favour_description":""},
+        {"key":"Paladin","name":"Paladin","simple_description":"Heals all allies simultaneously.","full_description":"--", "favour_description":""},
+        {"key":"Gigantic Clam","name":"Gigantic Clam","simple_description":"Strong tank.","full_description":"--", "favour_description":""},
+        {"key":"Engineer","name":"Engineer","simple_description":"Triggers mining effect at the end of each wave.","full_description":"--", "favour_description":""},
+        {"key":"Serpant","name":"Serpant","simple_description":"Has bonus attack and attack speed.","full_description":"--", "favour_description":""},
+        {"key":"Witch","name":"Witch","simple_description":"Summoner.","full_description":"--", "favour_description":""},
+        {"key":"Hunter","name":"Hunter","simple_description":"Ranged attacker. <i>Doom survivors.</i>","full_description":"--", "favour_description":""},
+        {"key":"Crescent","name":"Crescent Archer","simple_description":"Multushot archer. <i>Cold Blood.</i>","full_description":"--", "favour_description":""},
+        {"key":"Vanguard","name":"Vanguard","simple_description":"Brave frontline warrior.","full_description":"--", "favour_description":""}
+        
+        
+        
+    ],
+
+    "skills_descriptions":
+    [
+        {"key":"Long Sward","name":"Long Sward","simple_description":"Increase attack damage.","full_description":"+ !X! % attack damage.", "favour_description":""},
+        {"key":"Round Shield","name":"Round Shield","simple_description":"Increase health.","full_description":"+ !X! % health.", "favour_description":""},
+        {"key":"Battle Axe","name":"Battle Axe","simple_description":"Greatly increase attack damage, slightly reduce attack speed.","full_description":"+ !X! % attack damage, base attack speed -0.1.", "favour_description":""},
+        {"key":"Holy Shield","name":"Holy Shield","simple_description":"Increase armor and health.","full_description":"+ !X! % armor \n+ !Y! %health", "favour_description":""},
+        {"key":"Moon Chaser","name":"Moon Chaser","simple_description":"Increase attack damage and range.","full_description":"+ !X! % attack damage \n+ !Y! range", "favour_description":""},
+        {"key":"Kraken Slayer","name":"Pen Sharp","simple_description":"Increase attack damage. Every 3rd attack deals double damage.","full_description":"+ !X! % attack damage.\nEvery 3rd attack deals double damage.", "favour_description":""},
+        {"key":"torch","name":"Torch","simple_description":"Attacks applies burn on enemies.","full_description":"Attacks applies burn equal to !X! plus !D! % attack damage.", "favour_description":""},
+        {"key":"Mirror_a","name":"Magic Mirror","simple_description":"Increase armor. Active: Gain mirror stacks that reflect damage to enemies.","full_description":"Increase !X! % armor. Active: Gain !Y! mirror stacks. !PS! \nMirror: When hit, reflect the damage back to the attacker. Stack -1 each trigger.", "favour_description":""},
+        {"key":"Horn","name":"Horn","simple_description":"Increase attack damage. Killing an enemy grants all allied Runics a Focus stack.","full_description":"Increase !X! % attack damage. On killed an enemy, grant all allied Runics !Y! Focus stacks. !PS! \nFocus: Increases attack damage by 50%. For each stack, increase an additional 1%. Stack -1 each trigger.", "favour_description":""},
+
+        {"key":"BladeWeather","name":"Blade Weather","simple_description":"Passive: Attacks applies bleed. On dealing attack damage, shot additional blades to the target.","full_description":"Passive: Attacks applies !X! plus !D! % attack damage bleed stacks. On dealing damage, shots !Y! additional blades to the target each dealing !D! % attack damage(non-iterative). !PS! \nBleed: Increases damage taken by 1 per stack.", "favour_description":""},
+        {"key":"IceStorm","name":"Ice Storm","simple_description":"Passive: Attacks always have multi-attack, apply Freeze and Frostbite. Active: Fires a large number of scatter arrows.","full_description":"Passive: Attacks always apply 4x multi-attack, and apply !X! stacks of Freeze and Frostbite.\nActive: Fires !Y! scatter projectiles, each dealing !D! % attack damage. !PS! \nFreeze: Reduces movement speed by 1% per stack. Max reduction to 33%. Loses 1 stack per second.\nFrostbite: damage taken increased by 1% for each freeze stack.", "favour_description":""},
+        {"key":"FirePossession","name":"Fire Possession","simple_description":"Passive: Greatly increases attack damage. Attacks applies Ignite, Vulnerability, and Knockback. Projectiles do not lock onto enemies but rotate in a 50% radius around the unit.","full_description":"Passive: Increases attack damage by !X! %. Attacks apply Ignite equal to the damage dealt, and !Y! stacks of Vulnerability and minor Knockback. Projectiles do not lock onto enemies but rotate in a 50% radius around the unit.", "favour_description":""},
+        {"key":"WindRider","name":"Wind Rider","simple_description":"Passive: Increases attack range and attack speed of allied Runics within a 5×5 area.","full_description":"Passive: Allied Runics in a 5×5 area gain +!X! % attack range and +!Y! % attack speed.", "favour_description":""},
+        {"key":"SunChasing","name":"Sun Chasing","simple_description":"Passive: The farther projectiles travel, the more damage they deal.","full_description": "Passive: For every tile the projectile travels, increase damage dealt by !X! % (additively).", "favour_description":""},
+        {"key":"WorldFavour","name":"World Favour","simple_description":"Grants all positive effects to allied Runics within a 5×5 area.","full_description":"Grants all obtainable positive effects to allied Runics within a 5×5 area.", "favour_description":""},
+        {"key":"EnderShot","name":"Ender Shot","simple_description":"Passive: When an enemy spawns, has a chance to fire an ender shot at them, guaranteed on bosses. Active: Fire an ender shot at a target, dealing damage and applying all negative effects.","full_description":"Passive: When enemies spawn, has a !X! chance to fire an ender shot at them. Guaranteed against bosses. Active: Fires the ender shot at a target, dealing !D! % attack damage and applying all negative effects.", "favour_description":""},
+
+        {"key":"FiveStarCommenter","name":"Five-Star Commenter","simple_description":"Passive: adjaccent runics has increased frenzy.","full_description":"Passive: use positive comments to inspire adjacent friendly runics. They get !X! % extra frenzy. \nFrenzy: frenzy increases most stats.", "favour_description":""},
+        {"key":"Awaken","name":"Death Awaken","simple_description":"Passive: Greatly increases attack damage. Gains Focus when taking damage. Can only attack when it has Focus stacks.","full_description":"Passive: Increases attack damage by !X! %. Gains !Y! Focus when taking damage. Can only attack when it has focus stacks. !PS! \nFocus: Increases attack damage by 50%. For each stack, increase an additional 1%. Stack -1 each trigger.", "favour_description":""},
+        {"key":"MagicHalo","name":"Light Halo","simple_description": "Grants shields and Thorns to nearby allied Runics.","full_description": "Grants nearby allied Runics thorns and shield equal to !D! % attack. !PS! \nShield: Blocks incoming damage.\nThorns: When taking damage, deal damage to the attacker equal to stack count. Halves stack after each trigger."},
+        {"key": "Heaven","name":"Heaven",
+        "simple_description": "Passive: Each time you grant a positive effect to an ally, an additional random effect is granted (non-iterative). Active: Heals and shields nearby allies.",
+        "full_description": "Passive: Each time you grant a positive effect to an ally, grant an additional random one (non-iterative). Active: Heals and shields nearby allied Runics for !D! % of attack. !PS! \nShield: Blocks incoming damage."},        
+        {"key": "Curse","name":"Spiteful Curse",
+            "simple_description": "Passive: Each time appling a negative effect, an additional random one is applied (non-iterative). Active: Unleashes an explosive attack. Soul Pact: Applies Weak to the enemy.",
+            "full_description": "Passive: Each time appling a negative effect, an additional random one is applied (non-iterative). Active: Unleashes an explosive attack. Soul Pact: Applies !X! stacks of Weak. !PS! \nSoul Pact: lose 10% health to trigger if health higher than 50%.\nweak：attack damage reduced by 25%。For each weak stack, reduce an additional 1%. Stacks -1 each trigger."
+        },
+        {"key":"EnergyTransformation","name":"Crystal Mark / Destruction Eye","simple_description":"Crystal Mark: Gain 1 Crystal Mark when attacking in ShadowSpeaker form.\nDestruction Eye: In Destroyer form, each stack increases attack damage. Active: Transform from ShadowSpeaker to Destroyer, converting all Crystal Marks into Destruction Eye.",
+            "full_description":"Crystal Mark: Gain 1 Crystal Mark when attacking in ShadowSpeaker form.\nDestruction Eye: In Destroyer form, each stack increases attack damage by 25 %. Active: Transform into Destroyer form for !X! seconds, converting each Crystal Mark into !Y! Destruction Eye stacks.", "favour_description":""},
+        {"key":"BloodSacrifice","name":"Blood Sacrifice","simple_description":"Passive: Triggers a minor mining effect whenever this Runic is healed.","full_description":"Passive: When healed, triggers !X! % mining effect. (Also triggers at full HP)", "favour_description":""},
+        {"key":"Howl","name":"Howl","simple_description":"Grants Focus to nearby allied Runics, increasing their attack damage.","full_description":"Grants  !X!  stacks of Focus to nearby allied Runics. !PS! \nFocus: Increases attack damage by 50%. For each stack, increase an additional 1%. Stack -1 each trigger.", "favour_description":""},
+        {"key":"SealedSun","name":"Sealed Sun","simple_description":"Channels for several seconds before exploding in an area. Mana gained during the channeling increases damage and radius.",
+        "full_description": "Channels for !X! seconds before exploding in an area, dealing !D! % attack damage. Each mana gained during channeling increases radius and damage.", "favour_description":""},
+        {"key":"FlyingWatchtower","name":"Y-axis","simple_description":"Passive: Watchtower Bomber has permanent intangible.","full_description":"Passive: Watchtower Bomber has permanent Intangible. !PS! \nIntangible: Cannot be attacked or block enemies.", "favour_description":""},
+        {"key":"BrilliantLight","name":"Brilliant Light","simple_description": "Passive: Attacks applies Blind. Blinded enemies deal only 1 damage and become immune to Blind afterward.","full_description":"Passive: attacks apply !X! blinded and blind immunity. !PS! \n60 Elemental Vitality: +1 additional blinded stack.\n200: +1 additional blinded stack.\n750: +2 additional blinded stack.\nBlinded: attacks only deal 1 damage. Stacks -1 each trigger.", "favour_description":""},
+        {"key":"MeteorShower","name":"Meteor Shower","simple_description":"Summons a meteor shower to strike several random enemies.","full_description":"Summons a meteor shower to strike !X! random enemies, each taking !D! % attack damage.", "favour_description":""},
+        {"key":"FireBreathe","name":"Fire Breathe","simple_description":"Breathes a large fireball forward, damaging, burning, and knocking back enemies hit.","full_description":"Breathes a large fireball forward, dealing !D! % attack damage, applying burn based on !X! % damage dealt, and weak knockback to all enemies hit.", "favour_description":""},
+        {"key":"TheMist","name":"Emerging Mist","simple_description":"Passive: All allies regenerate mana faster. Effect improves with higher Elemental Vitality.","full_description":"Passive: Regenerates !X! mana per second for all allies. !PS!  \n60 Elemental Vitality: This mana regen +50%.\n200 Elemental Vitality: This mana regen +50%. \n750 Elemental Vitality: This mana regen +50%.", "favour_description":""},
+        {"key":"Quietus","name":"Quietus","simple_description":"Randomly smites an enemy, dealing damage as a percentage of wave HP.","full_description":"Randomly smites an enemy, dealing !X! % of wave HP as damage. !PS! \nMax 20% wave HP against bosses.", "favour_description":""},
+        {"key":"ShimmerDust","name":"Shimmer Dust","simple_description":"Poisons enemies in an area.","full_description":"Applies Poison to a target and surrounding enemies, stacks euqal to !D! % attack damage. !PS! \nPoison: Takes damage per second equal to number of stacks.", "favour_description":""},
+        {"key":"Eternal","name":"Eternal","simple_description": "Gain Eternal stacks. Eternal reduces damage taken by 99%.","full_description": "Gain !X! stacks of Eternal. !PS! \nEternal: Reduces damage taken by 99%. Stacks -1 each trigger.","favour_description":""},
+        {"key":"KingsBane","name":"Kings Bane","simple_description": "Passive: Deals massive damage to bosses when they spawn.","full_description": "Passive: When a boss spawns, deal !D! % attack damage to it.", "favour_description":""},
+        {"key":"AstralBody","name":"Astral Body","simple_description": "Gain Absorb stacks. Absorb limits damage taken to 10% of max HP.","full_description": "Gain !X! Absorb. \nAbsorb: Reduces damage taken to 10% of max HP. Stacks -1 each trigger.", "favour_description":""},
+        {"key":"TheStopwatch","name":"Mysterious Stopwatch","simple_description":"Passive: attacks have a chance to send the enemies back to the spawn point.","full_description":"Passive: Attacks have !X! % chance to send the enemies back to their spawn point.", "favour_description":""},
+        {"key":"Invoke","name":"Invoke",    "simple_description": "Reduce the cooldown of all Runicer abilities.",    "full_description": "Reduces cooldown of all Runicer abilities by !X! seconds.", "favour_description":""},
+        {"key":"ElementalConvergence","name":"Elemental Convergence","simple_description": "Passive: Slows the decay rate of Elemental Vitality.",
+        "full_description": "Passive: Reduces the decay of Elemental Vitality by !X! %.", "favour_description":""},
+        {"key":"WhirlWind","name":"Whirl Wind","simple_description": "Slash an enemy and surrounding area, deals damage and applies Vulnerable.",
+        "full_description": "Slash an enemy and surrounding area, dealing !D! % attack damage and applies !X! stacks of Vulnerable. !PS! \nvolunerable：damage taken increased by 50%。For each volunerable stack, increases an additional 1%. Stacks -1 each trigger.", "favour_description":""},
+        {"key":"BoulderThrowing","name":"BoulderThrowing",    "simple_description": "Passive: Attack speed was reduced. Attacks apply weak knockback.",
+        "full_description": "Passive: Attack speed modified by !X!. Attacks apply knockback with force !Y!.  !PS! \n60 Elemental Vitality: +1 force.\n200: +1 force.\n750: Becomes strong knockback.","favour_description":""},
+        {"key":"DarknessOvercast","name":"Darkness Overcast","simple_description":"Passive: Attacks applies dark overcast to enemies. This increases their damage taken permanently.","full_description":"Passive: attacks apply !X! dark overcast. !PS! \n60 Elemental Vitality: +1 additional dark overcast.\n200: +1 additional dark overcast.\n750: double the total stacks applied.\nDark overcast: For each dark overcast stack, take 1% more damage. Can't be removed.", "favour_description":""},
+        {"key":"Claw","name":"Claw","simple_description":"Claw attacks random ememies on the screen.",    "full_description": "Claws !X! random enemies on screen, dealing !D! % attack damage.", "favour_description":""},
+        {"key":"Bite","name":"Bite","simple_description": "Bites an enemy, deals damage and applies Bleed.",
+        "full_description": "Bites an enemy, deals !D! % attack damage and applies Bleed equal to !X! % attack damage. !PS! \nBleed: Increases damage taken by 1 per stack.", "favour_description":""},
+        {"key":"SpiritForge","name":"SpiritForge",    "simple_description": "Passive: Ally in front gains extra armor. Ally behind gains extra attack and range.",
+        "full_description": "Passive: Ally in front gains + !X! % armor. Ally behind gains + !X! % attack and range.", "favour_description":""},
+        {"key":"FrostShot","name":"FrostShot",    
+        "simple_description": "Passive: Attacks apply Freeze, slowing enemy movement and attack speed. Adjecent blue tiles always grant positive effects.",
+        "full_description": "Passive: Attacks apply !X! Freeze. Surrounding blue tiles always provide positive effects. !PS! \n60 Elemental Vitality: +3 Freeze.\n200: +4 Freeze.\n750: +5 Freeze.\nFreeze: Reduces movement speed by 1% per stack. Max reduction to 33%. Loses 1 stack per second."
+        , "favour_description":""},
+        {"key":"Grace","name":"Grace",    "simple_description": "Greatly heals an allied Runic and grants same stacks of Regen.",
+        "full_description": "Heals an allied Runic by !D! % attack and grants the same stacks of Regen. !PS! \nRegen: Restores HP each second equal to stack count, then halves stack."
+        , "favour_description":""},
+        {"key":"RageFire","name":"Rage Fire",    "simple_description": "Passive: Launches fireballs at enemies when they spawn. Attacks explode if target is already burning.",
+        "full_description": "Passive: Launches a fireball at enemy when it spawns, applying Burn equal to !D! % attack. Attacks has guaranteed explosion if target is already Burning. !PS! \n60 Elemental Vitality: +20% Burn from fireball.\n200: +20% Burn from fireball.\n750: Basic attacks also apply 1/3 fireball Burn.\nBurn: Take damage each second equal to stack count, then halves the stack."
+        , "favour_description":""},
+        {"key":"WebBuilding","name":"web building",
+            "simple_description":"Passive: when enemy was spawned, chance to launch a spider web to it, dealing damage and applying stun, weak and volunerable. Granteed to trigger against bosses.",
+            "full_description":"Passive: on enemy spawn there is !Y! % chance to launch a spider web to it, dealing !D! %attack damage and !X! stun, weak and volunerable. Granteed to trigger against bosses.!PS! \nstun: units with stun are incapable of any actions. Stacks -1 every second.\nweak：attack damage reduced by 25%。For each weak stack, reduce an additional 1%. Stacks -1 each trigger.\nvolunerable：damage taken increased by 50%. For each volunerable stack, increases an additional 1%. Stacks -1 each trigger.", "favour_description":""},
+        {"key":"DeathCurse","name":"Death Curse","simple_description":"Passive: attacks curses the enemies, has a chance to enslave them after they died.","full_description":"Passive: attacks curses the enemies, applying !X! enslave. !PS! \nenslave：after death, each enslave stack adds 1% chance for the enemy to become a friendly unit.", "favour_description":""},
+        {"key":"BreathOfDestruction","name":"Breathe of Destruction","simple_description":"Passive: attacks are granteed to attach explosiveattacks.","full_description":"Passive: attacks are granteed to attach explosiveattacks with range of !X!.", "favour_description":""},
+        {"key":"LightChisel","name":"Light Chisel","simple_description":"Passive: trigger a few mining effects on killing enemies.","full_description":"Passive: trigger !X! % mining effects on killing enemies.", "favour_description":""},
+        {"key":"ChainLightning","name":"Chain Lightning","simple_description":"Passive: attacks are granteed to attach bounceattacks.","full_description":"Passive: attacks are granteed to attach !X! bounceattacks. !PS! \n60 Elemental Activity：+1 Additional bounces.\n200：+1 Additional bounces.\n750：+2 Additional bounces.", "favour_description":""},
+        {"key":"BoneShot","name":"Bone Shot","simple_description":"Shoot a lot of scattering targetless arrows.","full_description":"Shoot !X! scattering targetless arrows, each dealing !D! % attack damage.", "favour_description":""},
+        {"key":"Blessing","name":"Blessing","simple_description":"Passive: regenerate health each second for all allies.","full_description":"Passive: regenerate health equal to !X! plus !H! % health each second for all allies.", "favour_description":""},
+        {"key":"Shell","name":"Shell","simple_description":"Passive: Gain damage reduction while below half health.","full_description":"Passive: Gain !X! %damage reduction while below half health.", "favour_description":""},
+        {"key":"Masterwork","name":"The Masterwork","simple_description":"Passive: trigger mining effects on end of each wave.","full_description":"Passive: trigger !X! % mining effects on end of each wave.", "favour_description":""},
+        {"key":"Deft","name":"Deft","simple_description":"Passive: Increase attack damage and attack speed.","full_description":"Passive: Increase !X! attack damage and !Y! attack speed.", "favour_description":""},
+        {"key":"SummonSkeleton","name":"Skeleton Summoning","simple_description":"summon skeletion(s) on the enemy half.","full_description":"summon !X! skeletion(s) on the enemy half, each has !D! % attack and health. Soul Pact: summon 1 more.!PS! \nSoul Pact: lose 10% health to trigger if health higher than 50%.", "favour_description":""},
+        {"key":"RapidShot","name":"Rapid Shot","simple_description":"Shoot an arrow to enemy quickly.","full_description":"Shoot an arrow to enemy quickly, deals !D! % damage.", "favour_description":""},
+        {"key":"Befall","name":"Moon Befall","simple_description":"Passive: attacks are granteed to attach multiattacks.","full_description":"Passive: attacks attach !X! multiattacks.", "favour_description":""},
+        {"key":"Smash","name":"Heavy Strike","simple_description":"Deal Massive damage to an enemy and stuns them.","full_description":"Deal !D! % damage to an enemy and apply !X! stun. !PS! \nstun: units with stun are incapable of any actions. Stacks -1 every second.", "favour_description":""}
+    ],
+
+    "kinds_descriptions":
+    [
+        {"key":"Warrior","name":"Warrior","simple_description":"Steadfast: !AMOUNT! different runics of that kind, to gain them !X! and !Y! % extra armor.","full_description":"--", "favour_description":""},
+        {"key":"Warlock","name":"Warlock","simple_description":"Siphon Soul: Have !AMOUNT! different runics of that kind, enables them to heal !X! health on dealt damage.","full_description":"", "favour_description":""},
+        {"key":"Priest","name":"Priest","simple_description":"Holy Light: Priests' attacks turns into healing to allies in range if they are healable. Have !AMOUNT! different runics of that kind, allowing you to overheal to a max to !X! times max HP.","full_description":"--", "favour_description":""},
+        {"key":"Marksman","name":"Marksman","simple_description":"Accuracy: Have !AMOUNT! different runics of that kind, to gain them !Y! % attack damage and !X! attack range。","full_description":"--", "favour_description":""},
+        {"key":"Mage","name":"Mage","simple_description":"Magical Halo: Have !AMOUNT! different runics of that kind, lets your runics reduce !X! mana cost while casting active abilities.","full_description":"", "favour_description":""},
+        {"key":"Knight","name":"Knight","simple_description":"Kings Blessing: Have !AMOUNT! different runics of that kind, to gain them !X! % damage reduction.","full_description":"--", "favour_description":""},
+        {"key":"Judger","name":"Commander","simple_description":"Commander: Have !AMOUNT! different runics of that kind, to gain your runics !X! bonus health.","full_description":"", "favour_description":""},
+        {"key":"Craftman","name":"Craftman","simple_description":"United Strength: Have !AMOUNT! different runics of that kind, to gain your runics !X! attack speed, and also allows you to merge !Y! -star-[craftmen] to higher star by 2 copies.","full_description":"", "favour_description":""},
+        {"key":"Assassin","name":"Assassin","simple_description":"Liberate: Have !AMOUNT! different runics of that kind, to gain them !X! %crit chance and !Y! %crit factor.","full_description":"--", "favour_description":""},
+
+        
+        {"key":"Beast","name":"Beast","simple_description":"Prey：Have !AMOUNT! different runics of that kind, to unlock level  !Y=LV!  runicer ability【Prey】.","full_description":"--", "favour_description":""},
+        {"key":"Dark","name":"Dark","simple_description":"Spacial Curese：Have !AMOUNT! different runics of that kind, to unlock level  !Y=LV!  runicer ability【Spacial Curse】.","full_description":"--", "favour_description":""},
+        {"key":"Dragon","name":"Dragon","simple_description":"Golden Rune：Have !AMOUNT! different runics of that kind, to unlock level  !Y=LV!  runicer ability【Spacial Curse】.","full_description":"--", "favour_description":""},
+        {"key":"Elemental","name":"Elemental","simple_description":"Elemental Reaction：Elementals have all passive skills. However they can still activate their skills to gain 20 vitality. Vitality can enhance elemental's passives. Have !AMOUNT! runics of that kind to increase vitality gained by * !X! 。","full_description":"--", "favour_description":""},
+        {"key":"Human","name":"Human","simple_description":"Golden Finger：Have !AMOUNT! different runics of that kind, to unlock level  !Y=LV!  runicer ability【Golden Finger】.","full_description":"--", "favour_description":""},
+        {"key":"Mech","name":"Mech","simple_description":"Iron defence：Have !AMOUNT! different runics of that kind, to unlock level !Y=LV!  runicer ability【battle front】.","full_description":"--", "favour_description":""},
+        {"key":"Ocean","name":"Ocean","simple_description":"Tide：Have !AMOUNT! different runics of that kind, to unlock level  !Y=LV!  runicer ability【tidal call】.\nGet positive effects putting on ocean grids.","full_description":"--", "favour_description":""},
+        {"key":"Transcendence","name":"Transcendence","simple_description":"Myth：If you have only one kind of transcendence, ascend it. Its damage, health and armor is multiplied by  !X! .","full_description":"", "favour_description":""},
+        {"key":"Undead","name":"Undead","simple_description":"Insanity：Have !AMOUNT! different runics of that kind, to gain them !X! % frenzy. Frenzy increases most stats.","full_description":"--", "favour_description":""},
+
+        {"key":"Demon","name":"Demon","simple_description":"Demon Force：Demon's damage, health and armor is multiplied by  !X! .","full_description":"--", "favour_description":""}    ],
+
+    "node_descriptions":
+    [
+        {"key":"","name":"Runics Techtree","simple_description":"Root node","full_description":"Tech tree activated", "favour_description":""},
+        {"key":"hidden","name":"Hidden Node","simple_description":"That's it","full_description":"Basic Attack", "favour_description":""},
+        {"key":"origin","name":"Origin","simple_description":"Increase starting $","full_description":"Starting $", "favour_description":""},
+        {"key":"explore","name":"Explore","simple_description":"Increase attack","full_description":"Attack", "favour_description":""},
+        {"key":"responsibility","name":"Responsibility","simple_description":"Protect here","full_description":"Basic armor", "favour_description":""},
+        {"key":"light","name":"CandleLight","simple_description":"New mines","full_description":"Unlock Luminarite mines", "favour_description":""},
+        {"key":"infrastructure","name":"Infrastructure","simple_description":"Improve mining efficiency","full_description":"Mining efficiency", "favour_description":""},
+        {"key":"climb","name":"Climb","simple_description":"Further increase starting $","full_description":"starting $", "favour_description":""},
+        {"key":"recycle","name":"Recycle","simple_description":"Increase the frequency enemy drops loots","full_description":"Loots frequency", "favour_description":""},
+        {"key":"greed","name":"Greed","simple_description":"Increase the loots level","full_description":"Loot level", "favour_description":""},
+        {"key":"growth","name":"Growth","simple_description":"Increase health","full_description":"Health", "favour_description":""},
+        {"key":"astral","name":"Astral","simple_description":"New mines","full_description":"Unlock Stellorite mines", "favour_description":""},
+        {"key":"infrastructureII","name":"Infrastructure II","simple_description":"Further Improve mining efficiency","full_description":"Mining efficiency", "favour_description":""},
+        {"key":"ghost","name":"Ghost","simple_description":"Levelups gives extra frenzy","full_description":"Extra frenzy from each xp level up", "favour_description":""},
+        {"key":"mentalFlow","name":"Mental Flow","simple_description":"Each activated kind effect gives extra frenzy","full_description":"Extra frenzy from each activated kind", "favour_description":""},
+        {"key":"delve","name":"Delve","simple_description":"Unlock runes","full_description":"Unlocked Runes. Get over 1,000 score in a game to get a rune.", "favour_description":""},
+        {"key":"knowledge","name":"Percept","simple_description":"Increase Souls earned.","full_description":"Souls earned", "favour_description":""},
+        {"key":"world","name":"World","simple_description":"Increase rune slots.","full_description":"Rune slots increased", "favour_description":""},
+        {"key":"order","name":"Order","simple_description":"Increase seat lines","full_description":"Seat lines increased", "favour_description":""},
+        {"key":"relax","name":"Relaxed","simple_description":"better rune level formula","full_description":"log_x(score) - 2，x=10", "favour_description":""},
+        {"key":"bright","name":"Bright","simple_description":"Moon steps","full_description":"Unlock Moonveilite mines", "favour_description":""},
+        {"key":"infrastructureIII","name":"InfrastructureIII","simple_description":"Further Improve mining efficiency","full_description":"Mining efficiency", "favour_description":""},
+        {"key":"gigantic","name":"Gigantic","simple_description":"Increase base armor","full_description":"Basic armor", "favour_description":""},
+        {"key":"arise","name":"Arise","simple_description":"Sun rises","full_description":"Unlock Solanite mines", "favour_description":""},
+        {"key":"infrastructureIV","name":"InfrastructureIV","simple_description":"Further Improve mining efficiency","full_description":"Mining efficiency", "favour_description":""},
+        {"key":"force","name":"Great Force","simple_description":"Increase attack","full_description":"Attack", "favour_description":""},
+        {"key":"worldStar","name":"World Star","simple_description":"Merge everything in the world to stars","full_description":"World Stars", "favour_description":""},
+
+
+        {"key":"WSattack","name":"Sward Totem","simple_description":"Start of combat: get free sward totems, each gives your runics +2% attack.","full_description":"Sward Totem Quantity", "favour_description":""},
+        {"key":"WSattackspeed","name":"Arrow Totem","simple_description":"Start of combat: get free arrow totems, each gives your runics +2% attack speed.","full_description":"Arrow Totem Quantity", "favour_description":""},
+        {"key":"WShealth","name":"Heart Totem","simple_description":"Start of combat: get free heart totems, each gives your runics +2% health.","full_description":"Heart Totem Quantity", "favour_description":""},
+        {"key":"WSarmor","name":"Shield Totem","simple_description":"Start of combat: get free shield totems, each gives your runics +2% armor.","full_description":"Shield Totem Quantity", "favour_description":""},
+        {"key":"WSCashPW","name":"Fortune Totem","simple_description":"Start of combat: get free fortune totems, each gives you +1$ per wave.","full_description":"Fortune Totem Quantity", "favour_description":""},
+        {"key":"WSSoulPW","name":"Soul Totem","simple_description":"Start of combat: get free soul totems, each gives you +1 soul per wave.","full_description":"Soul Totem Quantity", "favour_description":""},
+
+
+        {"key":"flow","name":"Sync","simple_description":"Generate time flasks","full_description":"Get 1 time flask for each tick. \nBasic tick period：1200s", "favour_description":""},
+        {"key":"flight","name":"Flight","simple_description":"Increase tick speed","full_description":"tick speed period (s)", "favour_description":""},
+        {"key":"refine","name":"Refine","simple_description":"Increase attack","full_description":"attack", "favour_description":""},
+        {"key":"robust","name":"Robust","simple_description":"Increase health","full_description":"health", "favour_description":""},
+        {"key":"forge","name":"Forge","simple_description":"Increase armor","full_description":"armor", "favour_description":""},
+        {"key":"eagleEye","name":"Eagle Eye","simple_description":"提升攻击范围","full_description":"攻击范围", "favour_description":""},
+
+        {"key":"Warrior0","name":"Warrior","simple_description":"Unique runic node","full_description":"Can purchase upgrades for only warrior runics", "favour_description":""},
+        {"key":"Warrior1","name":"EXP bonus(warrior)","simple_description":"Increase EXP gained of Warriors","full_description":"EXP bonus(warrior)", "favour_description":""},
+        {"key":"Warrior2","name":"Extra Armor(Steadfast)","simple_description":"Increase basic armor from Warrior kinds bonus","full_description":"Extra Armor(Steadfast)", "favour_description":""},
+        {"key":"Warrior3","name":"Armor Bonus(Steadfast)","simple_description":"Increase armor multiplier from Warrior kinds bonus","full_description":"Armor Bonus(Steadfast)", "favour_description":""},
+
+        {"key":"Hunter0","name":"Hunter","simple_description":"Unique runic node","full_description":"Can purchase upgrades for only marksman runics", "favour_description":""},
+        {"key":"Hunter1","name":"EXP bonus(Marksman)","simple_description":"Increase EXP gained of Marksmen","full_description":"EXP bonus(Marksman)", "favour_description":""},
+        {"key":"Hunter2","name":"Attack Bonus(Accuracy)","simple_description":"Increase attack from Marksmen kinds bonus","full_description":"Attack Bonus(Accuracy)", "favour_description":""},
+        {"key":"Hunter3","name":"Range(Accuracy)","simple_description":"Increase range from Marksmen kinds bonus","full_description":"Range(Accuracy)", "favour_description":""},
+
+        {"key":"Warlock0","name":"Warlock","simple_description":"Unique runic node","full_description":"Can purchase upgrades for only warlock runics", "favour_description":""},
+        {"key":"Warlock1","name":"EXP bonus(Warlock)","simple_description":"Increase EXP gained of Warlocks","full_description":"EXP bonus(Warlock)", "favour_description":""},
+        {"key":"Warlock2","name":"Healing(Siphon Soul)","simple_description":"Increase healing from Warlock kind bonus","full_description":"Healing(Siphon Soul)", "favour_description":""},
+
+        {"key":"Priest0","name":"Priest","simple_description":"Unique runic node","full_description":"Can purchase upgrades for only priest runics", "favour_description":""},
+        {"key":"Priest1","name":"EXP bonus(Priest)","simple_description":"Increase EXP gained of Priests","full_description":"EXP bonus(Priest)", "favour_description":""},
+        {"key":"Priest2","name":"Overheal(Holy Light)","simple_description":"Increase overheal cap from Priest kind bonus","full_description":"Overheal(Holy Light)", "favour_description":""},
+
+        {"key":"Assassin0","name":"Assassin","simple_description":"Unique runic node","full_description":"Can purchase upgrades for only assassin runics", "favour_description":""},
+        {"key":"Assassin1","name":"EXP bonus(Assassin)","simple_description":"Increase EXP gained of Assassins","full_description":"EXP bonus(Assassin)", "favour_description":""},
+        {"key":"Assassin2","name":"Crit chance(Liberate)","simple_description":"Increase crit chance from Assassin kind bonus","full_description":"Crit chance(Liberate)", "favour_description":""},
+        {"key":"Assassin3","name":"Crit factor(Liberate)","simple_description":"Increase crit factor from Assassin kind bonus","full_description":"Crit factor(Liberate)", "favour_description":""},
+
+        {"key":"Knight0","name":"Knight","simple_description":"Unique runic node","full_description":"Can purchase upgrades for only knight runics", "favour_description":""},
+        {"key":"Knight1","name":"EXP bonus(Knight)","simple_description":"Increase EXP gained of Knights","full_description":"EXP bonus(Knight)", "favour_description":""},
+        {"key":"Knight2","name":"Damage reduction(Kings Blessing)","simple_description":"Increase damage reduction from Knight kind bonus","full_description":"Damage reduction(Kings Blessing)", "favour_description":""},
+
+        {"key":"Mage0","name":"Mage","simple_description":"Unique runic node","full_description":"Can purchase upgrades for only mage runics", "favour_description":""},
+        {"key":"Mage1","name":"EXP bonus(Mage)","simple_description":"Increase EXP gained of Mages","full_description":"EXP bonus(Mage)", "favour_description":""},
+        {"key":"Mage2","name":"Skill mana required(Magical Halo)","simple_description":"Increase skills mana reduction from Mage kind bonus","full_description":"Skill mana required(Magical Halo)", "favour_description":""},
+
+        {"key":"Judger0","name":"Commander","simple_description":"Unique runic node","full_description":"Can purchase upgrades for only commander runics", "favour_description":""},
+        {"key":"Judger1","name":"EXP bonus(Commander)","simple_description":"Increase EXP gained of Commanders","full_description":"EXP bonus(Commander)", "favour_description":""},
+        {"key":"Judger2","name":"Health bonus（Commander）","simple_description":"Increase health from Commander kind bonus","full_description":"Health bonus（Commander）", "favour_description":""},
+
+        {"key":"Craftman0","name":"Craftman","simple_description":"Unique runic node","full_description":"Can purchase upgrades for only craftman runics", "favour_description":""},
+        {"key":"Craftman1","name":"EXP bonus(Craftman)","simple_description":"Increase EXP gained of Craftmen","full_description":"EXP bonus(Craftman)", "favour_description":""},
+        {"key":"Craftman2","name":"Attack speed(United Strength)","simple_description":"Increase attack speed from Craftmen kind bonus","full_description":"Attack speed(United Strength)", "favour_description":""},
+
+
+
+
+
+        {"key":"Ocean0","name":"Ocean","simple_description":"Unique runic node","full_description":"Can purchase upgrades for only ocean runics", "favour_description":""},
+        {"key":"Ocean1","name":"EXP bonus(Ocean)","simple_description":"Increase EXP gained of Oceans","full_description":"EXP bonus(Ocean)", "favour_description":""},
+        {"key":"Ocean2","name":"Damage(Tidal Call)","simple_description":"Increase damage of Tidal Call","full_description":"Damage(Tidal Call)", "favour_description":""},
+        {"key":"Ocean3","name":"Cooldown(Tidal Call)","simple_description":"Reduce Tidal Call cooldown","full_description":"Cooldown(Tidal Call)", "favour_description":""},
+
+        {"key":"Beast0","name":"Beast","simple_description":"Unique runic node","full_description":"Can purchase upgrades for only beast runics", "favour_description":""},
+        {"key":"Beast1","name":"EXP bonus(Beast)","simple_description":"Increase EXP gained of Beasts","full_description":"EXP bonus(Beast)", "favour_description":""},
+        {"key":"Beast2","name":"Damage(Prey)","simple_description":"Increase damage of Prey","full_description":"Damage(Prey)", "favour_description":""},
+        {"key":"Beast3","name":"Quantity(Prey)","simple_description":"Extra amount of Preys summoned","full_description":"Quantity(Prey)", "favour_description":""},
+
+        {"key":"Dark0","name":"Dark","simple_description":"Unique runic node","full_description":"Can purchase upgrades for only dark runics", "favour_description":""},
+        {"key":"Dark1","name":"EXP bonus(Dark)","simple_description":"Increase EXP gained of Darks","full_description":"EXP bonus(Dark)", "favour_description":""},
+        {"key":"Dark2","name":"Volunerable stacks(Spacial Curse)","simple_description":"Increase volunerable stacks applied by Spacial Curse","full_description":"Volunerable stacks(Spacial Curse)", "favour_description":""},
+        {"key":"Dark3","name":"Cooldown(Spacial Curse)","simple_description":"Reduce Spacial Curse cooldown","full_description":"Cooldown(Spacial Curse)", "favour_description":""},
+
+        {"key":"Mech0","name":"Mech","simple_description":"Unique runic node","full_description":"Can purchase upgrades for only mech runics", "favour_description":""},
+        {"key":"Mech1","name":"EXP bonus(Mech)","simple_description":"Increase EXP gained of Mechs","full_description":"EXP bonus(Mech)", "favour_description":""},
+        {"key":"Mech2","name":"Defense Amount(Iron Defense)","simple_description":"Increase defense amount from Iron Defense","full_description":"Defense Amount(Iron Defense)", "favour_description":""},
+        {"key":"Mech3","name":"Cooldown(Iron Defense)","simple_description":"Reduce Iron Defense cooldown","full_description":"Cooldown(Iron Defense)", "favour_description":""},
+
+        {"key":"Dragon0","name":"Dragon","simple_description":"Unique runic node","full_description":"Can purchase upgrades for only dragon runics", "favour_description":""},
+        {"key":"Dragon1","name":"EXP bonus(Dragon)","simple_description":"Increase EXP gained of Dragons","full_description":"EXP bonus(Dragon)", "favour_description":""},
+        {"key":"Dragon2","name":"Power(Golden Rune)","simple_description":"Increase bonus of Golden Rune","full_description":"Power(Golden Rune)", "favour_description":""},
+        {"key":"Dragon3","name":"Cooldown(Golden Rune)","simple_description":"Reduce Golden Rune cooldown","full_description":"Cooldown(Golden Rune)", "favour_description":""},
+
+        {"key":"Elemental0","name":"Elemental","simple_description":"Unique runic node","full_description":"Can purchase upgrades for only elemental runics", "favour_description":""},
+        {"key":"Elemental1","name":"EXP bonus(Elemental)","simple_description":"Increase EXP gained of Elementals","full_description":"EXP bonus(Elemental)", "favour_description":""},
+        {"key":"Elemental2","name":"Vitality bonus（Elemental Reaction）","simple_description":"Increase Elemental Vitality gained.","full_description":"Vitality bonus（Elemental Reaction）", "favour_description":""},
+
+        {"key":"Human0","name":"Human","simple_description":"Unique runic node","full_description":"Can purchase upgrades for only human runics", "favour_description":""},
+        {"key":"Human1","name":"EXP bonus(Human)","simple_description":"Increase EXP gained of Humans","full_description":"EXP bonus(Human)", "favour_description":""},
+        {"key":"Human2","name":"Power(Golden Finger)","simple_description":"Increase Golden Finger reward multiplier","full_description":"Power(Golden Finger)", "favour_description":""},
+        {"key":"Human3","name":"Cooldown(Golden Finger)","simple_description":"Reduce Golden Finger cooldown","full_description":"Cooldown(Golden Finger)", "favour_description":""},
+
+        {"key":"Transcendence0","name":"Transcendence","simple_description":"Unique runic node","full_description":"Can purchase upgrades for only transendent runics", "favour_description":""},
+        {"key":"Transcendence1","name":"EXP bonus(Transcendence)","simple_description":"Increase EXP gained of Transcendence","full_description":"EXP bonus(Transcendence)", "favour_description":""},
+        {"key":"Transcendence2","name":"Stats bonus(Myth)","simple_description":"Increase stats from Transcendence kind bonus","full_description":"Stats bonus(Myth)", "favour_description":""},
+        {"key":"Transcendence3","name":"One heart(Myth)","simple_description":"Allows triggering if you have enough Transcendence runics.","full_description":"Quantity to enable(Myth)", "favour_description":""},
+
+        {"key":"Undead0","name":"Undead","simple_description":"Unique runic node","full_description":"Can purchase upgrades for only undead runics", "favour_description":""},
+        {"key":"Undead1","name":"EXP bonus(Undead)","simple_description":"Increase EXP gained of Undeads","full_description":"EXP bonus(Undead)", "favour_description":""},
+        {"key":"Undead2","name":"Frenzy(Insanity)","simple_description":"Increase frenzy from Undead kinds bonus","full_description":"Frenzy(Insanity)", "favour_description":""},
+
+
+        {"key":"destruction","name":"Destruction","simple_description":"Unlock enemy shards","full_description":"Unlock enemy shards. Get an enemy shard on killed an enemy.", "favour_description":""},
+        
+        {"key":"return","name":"回归","simple_description":"重置科技树和资源，获得星","full_description":"星", "favour_description":""}
+
+    ],
+
+    "enemy_descriptions":
+    [
+        {"key":"inspire","name":"inspire","simple_description":"Increases the speeds of nearby enemies.","full_description":"", "favour_description":""},
+        {"key":"protecter","name":"protecter","simple_description":"Protect nearby enemies, reducing their damage taking to half.","full_description":"", "favour_description":""},
+        {"key":"boss","name":"BOSS","simple_description":"Having very high health，slow but almost unstoppable. Get extra rewards while defeating.","full_description":"", "favour_description":""},
+        {"key":"ranged","name":"ranged","simple_description":"Enemy that can ranged attack.","full_description":"", "favour_description":""},
+        {"key":"scatter","name":"scatter","simple_description":"Scatter into lower health and smaller enemies on death.","full_description":"", "favour_description":""},
+        {"key":"shield","name":"shield","simple_description":"Having shield equal to its max health. On shielded all debuff taken are halfed.","full_description":"", "favour_description":""},
+        {"key":"healer","name":"healer","simple_description":"Heal nearby enemies.","full_description":"", "favour_description":""},
+        {"key":"tank","name":"tank","simple_description":"Enemy has high health and move slowly.","full_description":"", "favour_description":""},
+        {"key":"fast","name":"fast","simple_description":"Moves fast.","full_description":"", "favour_description":""},
+        {"key":"basic","name":"basic","simple_description":"Normal enemies.","full_description":"", "favour_description":""}
+
+    ],
+
+    "equipment_descriptions":
+    [
+        {"key":"Long Sward","name":"Long sward","simple_description":"skill:","full_description":"--", "favour_description":""},
+        {"key":"Round Shield","name":"Round Shield","simple_description":"skill:","full_description":"--", "favour_description":""},
+
+        {"key":"Battle Axe","name":"Battle Axe","simple_description":"skill:","full_description":"--", "favour_description":""},
+        {"key":"Holy Shield","name":"Holy Shield","simple_description":"skill:","full_description":"--", "favour_description":""},
+        {"key":"Moon Chaser","name":"Moon Chaser","simple_description":"skill:","full_description":"--", "favour_description":""},
+        {"key":"Kraken Slayer","name":"Pen Sharp","simple_description":"skill:","full_description":"--", "favour_description":""},
+        {"key":"Mirror_a","name":"Magic Mirror","simple_description":"skill:","full_description":"--", "favour_description":""},
+        {"key":"Horn","name":"Horn","simple_description":"skill:","full_description":"", "favour_description":""},
+        {"key":"torch","name":"Torch","simple_description":"skill:","full_description":"--", "favour_description":""}
+
+
+    ],
+
+    "ability_descriptions":
+    [
+        {"key":"Spacial Curse","name":"Spacial Curse","simple_description":"Shadow winds all enemies, deals damage equal to !Y! % of your DPS and apply !X! volunerable.\nCooldown: !CD! seconds.\nvolunerable：damage taken increased by 50%。For each volunerable stack, increases an additional 1%. Stacks -1 for each trigger.","full_description":"--", "favour_description":""},
+        {"key":"Tidal Call","name":"Tidal Call","simple_description":"Summons a huge tide sweeps through the battlefield, dealing damage equal to !X! % of your DPS and strong knockback.\nCooldown: !CD! seconds.","full_description":"--", "favour_description":""},
+        {"key":"Golden Finger","name":"Golden Finger","simple_description":"Converts an enemy inot gold, it dies instantly, grants !X! times $ and souls.\nCooldown: !CD! seconds.","full_description":"--", "favour_description":""},
+        {"key":"Flashing Orb","name":"Prey","simple_description":"Summons !Y! prey(s) roaming on the battlefield, strike nearby enemies, dealing damage equals to !X! %of your DPS.\nAttack Cooldown: !CD! seconds.","full_description":"--", "favour_description":""},
+        {"key":"Golden Board","name":"Golden Rune","simple_description":"Turns the battlefield into golden for !Y! seconds. During activation, enemies drops !X! times $ and souls.\nCooldown: !CD! seconds.","full_description":"--", "favour_description":""},
+        {"key":"Battle Front","name":"Battle Front","simple_description":"Battle front takes enemies' damage by its defense value. \n Active: Refill defense for the battle front, number equal to  !X! % of your DPS. Defense can stack multiples times, but the number granted will decay. \nCooldown: !CD! seconds.","full_description":"--", "favour_description":""}
+    ],
+
+    "item_descriptions":
+    [
+        {"key":"soul","name":"Soul","simple_description":"Basic unit containing power","full_description":"", "favour_description":""},
+        {"key":"mine1","name":"Glimmerite","simple_description":"Mineral","full_description":"", "favour_description":""},
+        {"key":"mine2","name":"Luminarite","simple_description":"Mineral","full_description":"", "favour_description":""},
+        {"key":"mine3","name":"Stellorite","simple_description":"Mineral","full_description":"", "favour_description":""},
+        {"key":"mine4","name":"Moonveilite","simple_description":"Mineral","full_description":"", "favour_description":""},
+        {"key":"mine5","name":"Solanite","simple_description":"Mineral","full_description":"", "favour_description":""},
+        {"key":"runeEnergy","name":"Rune Energy","simple_description":"Give score to gained runes","full_description":"", "favour_description":""},
+        {"key":"timeFlask","name":"Time Flask","simple_description":"Material with time secret. Used for special node researches.","full_description":"", "favour_description":""},
+        {"key":"enemyShard","name":"Enemy Shard","simple_description":"Material left with enemy's energy. Used for special node researches.","full_description":"", "favour_description":""},
+        {"key":"crystal1","name":"Green crystal","simple_description":"Used for base facility upgrades","full_description":"", "favour_description":""},
+        {"key":"crystal2","name":"Red crystal","simple_description":"Used for base facility upgrades","full_description":"", "favour_description":""},
+        {"key":"crystal3","name":"Blue crystal","simple_description":"Used for base facility upgrades","full_description":"", "favour_description":""},
+        {"key":"crystal4","name":"Yellow crystal","simple_description":"Used for base facility upgrades","full_description":"", "favour_description":""},
+        {"key":"crystal5","name":"Orange crystal","simple_description":"Used for base facility upgrades","full_description":"", "favour_description":""},
+        {"key":"rune1","name":"Strength Rune","simple_description":"","full_description":"", "favour_description":""},
+        {"key":"rune2","name":"Resolution Rune","simple_description":"","full_description":"", "favour_description":""},
+        {"key":"rune3","name":"Wisdom Rune","simple_description":"","full_description":"", "favour_description":""}
+
+        
+    ],
+
+    "rune_entries_descriptions":
+    [
+        {"key":"16","name":"Mining efficiency","simple_description":"%","full_description":"", "favour_description":""},
+        {"key":"15","name":"Runics Exp Bonus","simple_description":"%","full_description":"", "favour_description":""},
+        {"key":"14","name":"Soul/Wave","simple_description":"","full_description":"", "favour_description":""},
+        {"key":"13","name":"$/wave","simple_description":"","full_description":"", "favour_description":""},
+        {"key":"12","name":"Kill Reward Soul","simple_description":"%","full_description":"", "favour_description":""},
+        {"key":"11","name":"Kill Reward $","simple_description":"%","full_description":"", "favour_description":""},
+        {"key":"8","name":"Dmg Reduction","simple_description":"%","full_description":"", "favour_description":""},
+        {"key":"7","name":"Armor","simple_description":"%","full_description":"", "favour_description":""},
+        {"key":"6","name":"Health","simple_description":"%","full_description":"", "favour_description":""},
+        {"key":"4","name":"Attack Range","simple_description":"%","full_description":"", "favour_description":""},
+        {"key":"3","name":"Crit Factor","simple_description":"%","full_description":"", "favour_description":""},
+        {"key":"2","name":"Crit Chance","simple_description":"%","full_description":"", "favour_description":""},
+        {"key":"1","name":"Attack Speed","simple_description":"%","full_description":"", "favour_description":""},
+        {"key":"0","name":"Attack","simple_description":"%","full_description":"", "favour_description":""}
+
+
+        
+    ],
+    
+    "achievements_descriptions":
+    [
+        {"key":"Achievement22","name":"符灵","simple_description":"完成所有成就。","full_description":"", "favour_description":""},
+        {"key":"Achievement21","name":"我分不清","simple_description":"在虚拟10或更高难度中达到100波。","full_description":"", "favour_description":""},
+        {"key":"Achievement20","name":"虚拟数轴","simple_description":"在虚拟5或更高难度中达到100波。","full_description":"", "favour_description":""},
+        {"key":"Achievement19","name":"超越现实","simple_description":"在虚拟1或更高难度中达到100波。","full_description":"", "favour_description":""},
+
+        {"key":"Achievement18","name":"Universe","simple_description":"Get 32 celestral card upgrades.","full_description":"", "favour_description":""},
+        {"key":"Achievement17","name":"From Mortal","simple_description":"Get a 6-star runic.","full_description":"", "favour_description":""},
+        {"key":"Achievement16","name":"O Immortal","simple_description":"Get a 6-tier runic.","full_description":"", "favour_description":""},
+
+        {"key":"Achievement15","name":"Fortune","simple_description":"Stack multiplier of golden rune to 88.","full_description":"", "favour_description":""},
+        {"key":"Achievement14","name":"How Long It Takes","simple_description":"Get 42323 Minerals in a game.","full_description":"", "favour_description":""},
+        {"key":"Achievement13","name":"Classical Tower Defense","simple_description":"Beat wave 100 by using only watchtower bomber.","full_description":"", "favour_description":""},
+        {"key":"Achievement12","name":"Milestone","simple_description":"Beat wave 1000 under any difficulty.","full_description":"", "favour_description":""},
+
+        {"key":"Achievement11","name":"Reality","simple_description":"Beat wave 100 in Reality.","full_description":"", "favour_description":""},
+        {"key":"Achievement10","name":"Finality","simple_description":"Beat wave 100 in Finality.","full_description":"", "favour_description":""},
+        {"key":"Achievement9","name":"Calamity","simple_description":"Beat wave 100 in Calamity.","full_description":"", "favour_description":""},
+        {"key":"Achievement8","name":"Fracturity","simple_description":"Beat wave 100 in Fracturity.","full_description":"", "favour_description":""},
+        {"key":"Achievement7","name":"Steady","simple_description":"Beat wave 100 in Steady.","full_description":"", "favour_description":""},
+        {"key":"Achievement6","name":"Breezy","simple_description":"Beat wave 100 in Breezy.","full_description":"", "favour_description":""},
+        {"key":"Achievement5","name":"Campaign 5","simple_description":"Win Campaign 5.","full_description":"", "favour_description":""},
+        {"key":"Achievement4","name":"Campaign 4","simple_description":"Win Campaign 4.","full_description":"", "favour_description":""},
+        {"key":"Achievement3","name":"Campaign 3","simple_description":"Win Campaign 3.","full_description":"", "favour_description":""},
+        {"key":"Achievement2","name":"Campaign 2","simple_description":"Win Campaign 2.","full_description":"", "favour_description":""},
+        {"key":"Achievement1","name":"Campaign 1","simple_description":"Win Campaign 1.","full_description":"", "favour_description":""},
+        {"key":"Achievement0","name":"Campaign 0","simple_description":"Win Campaign 0.","full_description":"", "favour_description":""}
+
+
+        
+    ],
+    "grids_descriptions":
+    [
+        {"key":"mark","name":" !KINDNAME! Mark","simple_description":"Putting a runic here, as if it has  !KINDNAME!  kind.","full_description":"", "favour_description":""},
+        {"key":"mine5","name":"Solanite Ore","simple_description":"Putting a runic with mining ability here, to produce Solanite mines.","full_description":"", "favour_description":""},
+        {"key":"mine4","name":"Moonveilite Ore","simple_description":"Putting a runic with mining ability here, to produce Moonveilite mines.","full_description":"", "favour_description":""},
+        {"key":"mine3","name":"Stellorite Ore","simple_description":"Putting a runic with mining ability here, to produce Stellorite mines.","full_description":"", "favour_description":""},
+        {"key":"mine2","name":"Luminarite Ore","simple_description":"Putting a runic with mining ability here, to produce Luminarite mines.","full_description":"", "favour_description":""},
+        {"key":"mine1","name":"Glimmerite Ore","simple_description":"Putting a runic with mining ability here, to produce Glimmerite mines.","full_description":"", "favour_description":""},
+        {"key":"mine0","name":"Gems Ore","simple_description":"Putting a runic with mining ability here, to produce $.","full_description":"", "favour_description":""},
+        {"key":"holy","name":"Holy grid","simple_description":"+35% Health","full_description":"", "favour_description":""},
+        {"key":"water","name":"Ocean grid","simple_description":"-50% armor. If certain conditions met, +50% armor instead.","full_description":"", "favour_description":""},
+        {"key":"lava","name":"Lava grid","simple_description":"+35% attack damage.","full_description":"", "favour_description":""},
+        {"key":"craftGrid","name":"Crafting grid","simple_description":"Runics placed here are crafting materials.","full_description":"", "favour_description":""},
+        {"key":"upgradeGrid","name":"Buy EXP","simple_description":"Click(Key F)to buy 4 EXP by $4. Long hold to purchase quickly.","full_description":"", "favour_description":""},
+        {"key":"sellGrid","name":"Sell runics","simple_description":"Runics placed here were sold.","full_description":"", "favour_description":""},
+        {"key":"refreshGrid","name":"Refresh","simple_description":"Click(Key D)to refresh the shop. Price increases every time and renews while defeating the BOSS.","full_description":"", "favour_description":""}
+
+
+    ],
+    "goods_descriptions":
+    [
+        {"key":"miner5","name":"Solanite Collector","simple_description":"Collect Solanite mines based on electrcity gained.","full_description":"", "favour_description":""},
+        {"key":"miner4","name":"Moonveilite Collector","simple_description":"Collect Moonveilite mines based on electrcity gained.","full_description":"", "favour_description":""},
+        {"key":"miner3","name":"Stellorite Collector","simple_description":"Collect Stellorite mines based on electrcity gained.","full_description":"", "favour_description":""},
+        {"key":"miner2","name":"Luminarite Collector","simple_description":"Collect Luminarite mines based on electrcity gained.","full_description":"", "favour_description":""},
+        {"key":"miner1","name":"Glimmerite Collector","simple_description":"Collect Glimmerite mines based on electrcity gained.","full_description":"", "favour_description":""},
+        {"key":"miner0","name":"Soul Harrvester","simple_description":"Collect souls based on electrcity gained.","full_description":"", "favour_description":""},
+        {"key":"GachaMachine","name":"Raffle machine","simple_description":"Every  !REQ!  electricity grants a raffle pull.","full_description":"", "favour_description":""},
+        {"key":"baseGenerator","name":"Base Generator","simple_description":"The electricity tick of the base. Every !REQ! seconds, gives your base facilities 1 electricity.","full_description":"", "favour_description":""}
+
+
+    ],
+    "cards_descriptions":
+    [
+        {"key":"","name":"Card Name","simple_description":"Card Description","full_description":"", "favour_description":""},
+
+        {"key":"plunder","name":"Plunder","simple_description":"Get a random equipment item","full_description":"", "favour_description":""},
+        {"key":"craftingHammer","name":"Craftman's Hammer","simple_description":"Get crafting points.","full_description":"", "favour_description":""},
+        {"key":"greed","name":"Scavenge","simple_description":"Get $ equal to wave number.","full_description":"", "favour_description":""},
+        {"key":"rainforcement","name":"Runiforcement","simple_description":"Get random runics.","full_description":"", "favour_description":""},
+        {"key":"PaintBrush","name":"符灵画笔","simple_description":"获得牌库编辑点数。","full_description":"", "favour_description":""},
+        {"key":"toolPack","name":"Tool Pack","simple_description":"Get a random equipment item, 1 crafting point and 1 random runic.","full_description":"", "favour_description":""},
+
+
+        {"key":"AuraSward","name":"Sward Totem","simple_description":"Get extra Sward Totem, giving your runics 2% attack.","full_description":"", "favour_description":""},
+        {"key":"AuraShield","name":"Shield Totem","simple_description":"Get extra Shield Totem, giving your runics 2% armor.","full_description":"", "favour_description":""},
+        {"key":"AuraArrow","name":"Arrow Totem","simple_description":"Get extra Arrow Totem, giving your runics 2% arrow.","full_description":"", "favour_description":""},
+        {"key":"AuraHeart","name":"Heart Totem","simple_description":"Get extra Heart Totem, giving your runics 2% health.","full_description":"", "favour_description":""},
+        {"key":"BottledFire","name":"火焰图腾","simple_description":"遗物\n你的符灵获得5%暴击几率。","full_description":"", "favour_description":""},
+        {"key":"BottledLightning","name":"闪电图腾","simple_description":"遗物\n你的符灵获得5%弹射攻击几率。","full_description":"", "favour_description":""},
+        {"key":"BottledMoonlight","name":"月光图腾","simple_description":"遗物\n你的符灵获得5%多重攻击几率。","full_description":"", "favour_description":""},
+        {"key":"BottledDragonBreathe","name":"龙息图腾","simple_description":"遗物\n你的符灵获得5%爆炸攻击几率。","full_description":"", "favour_description":""},
+        {"key":"SoulExtractor","name":"感知图腾","simple_description":"遗物\n获得5%额外灵魂。","full_description":"", "favour_description":""},
+
+
+        {"key":"ChampionBelt","name":"冲击腰带","simple_description":"Relic\n每当你的符灵给予敌人易伤或虚弱时，给予1层虚弱或易伤。不会循环叠加。","full_description":"", "favour_description":""},
+        {"key":"IllegibleSward","name":"Illegible Sward","simple_description":"Relic\nYour runics gains 1 base attack.","full_description":"", "favour_description":""},
+        {"key":"IllegibleShield","name":"Illegible Shield","simple_description":"Relic\nYour runics gains 1 base armor.","full_description":"", "favour_description":""},
+        {"key":"IllegibleHeart","name":"Illegible Heart","simple_description":"Relic\nYour runics gains 4 base health.","full_description":"", "favour_description":""},
+        {"key":"Rubber","name":"Rubber","simple_description":"Relic\nRefresh costs $2 less.","full_description":"", "favour_description":""},
+        {"key":"Note","name":"Note","simple_description":"Relic\nRunic purchases costs $1 less.","full_description":"", "favour_description":""},
+        {"key":"Corn","name":"玉米","simple_description":"Relic\n攻击有1%几率使敌人获得2层晕眩。","full_description":"", "favour_description":""},
+        {"key":"Bank","name":"储蓄罐","simple_description":"Relic\n每波结束时，你每拥有$10便获得$1。（上限$50）","full_description":"", "favour_description":""},
+        {"key":"AuraEagle","name":"Eagle Totem","simple_description":"Relic\nYour runics gain 0.1 attack range.","full_description":"", "favour_description":""},
+        {"key":"BurningBlood","name":"Burning Blood","simple_description":"Relic\nYour runics regen 16% health end of each wave.","full_description":"", "favour_description":""},
+        {"key":"Coin","name":"Coin","simple_description":"Relic\nGet 1 more shop slot.","full_description":"", "favour_description":""},
+        {"key":"Glasses","name":"Glasses","simple_description":"Relic\nYou pick bonuses from 4 options, instead of 3.","full_description":"", "favour_description":""},
+        {"key":"SnowFlake","name":"Snow Flake","simple_description":"Relic\nAttacks apply 2 freeze.","full_description":"", "favour_description":""},
+        {"key":"IceCube","name":"Ice Cube","simple_description":"Relic\nEnemies does 1% less damage for each freeze they have, to a max reduction to 33%.","full_description":"", "favour_description":""},
+        {"key":"Barb","name":"Barb","simple_description":"Relic\n Enemies take double damage from bleed.","full_description":"", "favour_description":""},
+        {"key":"Stake","name":"Cross","simple_description":"Relic\nEnemies with burn receives 90% less healing.","full_description":"", "favour_description":""},
+        {"key":"Seed","name":"Seed","simple_description":"Relic\nYour access healing turns into half shield.","full_description":"", "favour_description":""},        
+        {"key":"Idol","name":"Idol","simple_description":"Relic\nGet a free refresh if you star-up a runic.","full_description":"", "favour_description":""},
+        {"key":"Pickaxe","name":"Pickaxe","simple_description":"Relic\nIncrease mining efficiency by 15%.","full_description":"", "favour_description":""},
+        {"key":"Medal","name":"Medal","simple_description":"Relic\nOn boss was defeated, your runics get 1 eternity if they don't have eternity.","full_description":"", "favour_description":""},
+        {"key":"AncientMark","name":"Ancient Mark","simple_description":"Relic\n1 grid getting a random mark. Runics on the marked grid gain corresponding kind, with a max of 3.","full_description":"", "favour_description":""},
+        {"key":"HolyBefall","name":"神圣降临","simple_description":"Relic\n2个随机格子变为神圣格子。","full_description":"", "favour_description":""},
+        {"key":"FireBefall","name":"火焰之雨","simple_description":"Relic\n2个随机格子变为火焰格子。","full_description":"", "favour_description":""},
+        {"key":"Scope","name":"Scope","simple_description":"Relic\nGain 1 Focus on critical strikes.","full_description":"", "favour_description":""},
+        {"key":"FireTotem","name":"Fire Totem","simple_description":"Relic\nYour runics gets 5% critical chance.","full_description":"", "favour_description":""},
+        {"key":"Rose","name":"Rose","simple_description":"Relic\nWhen taken damage, your runics gain thorns equal to 25% of their attack.","full_description":"", "favour_description":""},
+
+        {"key":"OceanAtlas","name":"Ocean Atlas","simple_description":"Relic\nGain 2【Ocean】Runics. Your tidal call summons an extra tide.","full_description":"", "favour_description":""},
+        {"key":"BeastAtlas","name":"Beast Atlas","simple_description":"Relic\nGain 2【Beast】Runics. Pery's attacks apply bleed equal to 15% damage.","full_description":"", "favour_description":""},
+        {"key":"DragonAtlas","name":"Dragon Atlas","simple_description":"Relic\nGain 2【Dragon】Runics. Your golden rune lasts for 3 more seconds.","full_description":"", "favour_description":""},
+        {"key":"HumanAtlas","name":"Human Atlas","simple_description":"Relic\nGain 2【Human】Runics. Your golden finger can explode attack for a small range.","full_description":"", "favour_description":""},
+        {"key":"UndeadAtlas","name":"Undead Atlas","simple_description":"Relic\nGain 2【Undead】Runics. Your undeads gains 2 eternity at the end of each wave.","full_description":"", "favour_description":""},
+        {"key":"MechAtlas","name":"Mech Atlas","simple_description":"Relic\nGain 2【Mech】Runics. Your battle front gains 20% extra defense.","full_description":"", "favour_description":""},
+        {"key":"The Transcendent","name":"The Only Transcendent","simple_description":"Relic\nGain 1 random 【Transcendent】 runic. Runics with the same name gains 42% more attack.","full_description":"", "favour_description":""},
+        {"key":"DarkAtlas","name":"Dark Atlas","simple_description":"Relic\nGain 2【Dark】Runics. Your spacial curse also applies 16 dark overcast.","full_description":"", "favour_description":""},
+        {"key":"ElementalAtlas","name":"Elemental Atlas","simple_description":"Relic\nGain 2【Elemental】Runics. You get 8 elemental vitality each second.","full_description":"", "favour_description":""},
+        
+        {"key":"WarriorSoul","name":"Warrior Soul","simple_description":"Relic\nGain 2【Warrior】Runics. Your warrior will immediately attacks back on being attacked by an enemy.","full_description":"", "favour_description":""},
+        {"key":"HunterSoul","name":"Marksman Soul","simple_description":"Relic\nGain 2【Marksman】Runics. Your marksman's attack is increased by 20%.","full_description":"", "favour_description":""},
+        {"key":"MageSoul","name":"Mage Soul","simple_description":"Relic\nGain 2【Mage】Runics. Your mage summons small 【meteor shower】 on using their abilities.","full_description":"", "favour_description":""},
+        {"key":"WarlockSoul","name":"Warlock Soul","simple_description":"Relic\nGain 2【Warlock】Runics. Your warlocks gains 3 absorb end of each wave.","full_description":"", "favour_description":""},
+        {"key":"CraftmanSoul","name":"Craftman Soul","simple_description":"Relic\nGain all 5【Craftman】Runics.","full_description":"", "favour_description":""},
+        {"key":"KnightSoul","name":"Knight Soul","simple_description":"Relic\nGain 2【Knight】Runics. After your knights triggers damage reduction, has a 50% chance to trigger again.","full_description":"", "favour_description":""},
+        {"key":"PriestSoul","name":"Priest Soul","simple_description":"Relic\nGain 2【Priest】Runics. Your priests can attack and heal simutaneously.","full_description":"", "favour_description":""},
+        {"key":"JudgerSoul","name":"Commander Soul","simple_description":"Relic\nGain 2【Commander】Runics. Your commander kind also gives 1/3/9 basic attack.","full_description":"", "favour_description":""},
+        {"key":"AssassinSoul","name":"Assassin Soul","simple_description":"Relic\nGain 2【Assassin】Runics. Your assassins' crits applies bleed, stacks equal to 25% damage.","full_description":"", "favour_description":""},
+
+
+        {"key":"Container1","name":"First container","simple_description":"Relic\nSouls earned is increased by 6%.","full_description":"", "favour_description":""},
+        {"key":"Container2","name":"Second container","simple_description":"Relic\nSouls earned is increased by 6%.","full_description":"", "favour_description":""},
+        {"key":"Container3","name":"Third container","simple_description":"Relic\nSouls earned is increased by 6%.","full_description":"", "favour_description":""},
+        {"key":"Container4","name":"Fourth container","simple_description":"Relic\nSouls earned is increased by 6%.","full_description":"", "favour_description":""},
+        {"key":"Container5","name":"Fifth container","simple_description":"Relic\nSouls earned is increased by 6%.","full_description":"", "favour_description":""},
+        {"key":"Container6","name":"Sixth container","simple_description":"Relic\nSouls earned is increased by 6%.","full_description":"", "favour_description":""},
+
+        {"key":"ContainerNull","name":"Null Container","simple_description":"Relic\nCan appear if all 6 soul containers are collected. Souls earned is increased by 66%. Your runics' health is decreased by 66%.","full_description":"", "favour_description":""},
+        {"key":"TreasureAPrecious","name":"Precious Treasure","simple_description":"Relic\n$ earned is increased by 10%.","full_description":"", "favour_description":""},
+
+        {"key":"EnergyControlling","name":"Controlling Energy","simple_description":"Relic\nEnemies has 10% less attack.","full_description":"", "favour_description":""},
+        {"key":"EnergyNull","name":"Null Energy","simple_description":"Relic\nCan appear if collected 【Controlling Energy】. Enemies has 50% less attack. Your runics has 50% less attack.","full_description":"", "favour_description":""},
+
+        {"key":"MatterDecompose","name":"Decompose Matter","simple_description":"Relic\nEnemies has 10% less health.","full_description":"", "favour_description":""},
+        {"key":"MatterNull","name":"Null Matter","simple_description":"Relic\nCan appear if collected 【Decompose Matter】. Enemies has 50% less health. Your runics has 50% less health.","full_description":"", "favour_description":""},
+        {"key":"TreasureNull","name":"Null Treasure","simple_description":"Relic\nCan appear if collected 【Precious Treasure】. $ earned is increased by 50%. Enemies spawn rate is increased by 50%.","full_description":"", "favour_description":""},
+
+
+        {"key":"loseControl","name":"Lose Control","simple_description":"Challenge\n敌人的刷新频率大幅提升。","full_description":"", "favour_description":""},
+        {"key":"weak","name":"渺小","simple_description":"挑战\n敌人的攻击力与生命值提升。","full_description":"", "favour_description":""},
+        {"key":"hostility","name":"仇恨","simple_description":"挑战\n敌人的行动速度提高。","full_description":"", "favour_description":""},
+        {"key":"trance","name":"恍惚","simple_description":"挑战\n符灵们施法所需的法力值提升。","full_description":"", "favour_description":""},
+        {"key":"pride","name":"傲慢","simple_description":"挑战\n奖励牌中出现升温卡牌。选择它们会提升难度并获得灵魂与分数加成。","full_description":"", "favour_description":""},
+
+        {"key":"ignorance","name":"无知","simple_description":"挑战\n符灵和玩家获取的经验值减少。","full_description":"", "favour_description":""},    
+        {"key":"decay","name":"腐朽","simple_description":"挑战\n护甲值最多抵挡90%的伤害。","full_description":"", "favour_description":""},
+        {"key":"frighten","name":"恐惧","simple_description":"挑战\n基础攻击速度下降。","full_description":"", "favour_description":""},
+        {"key":"betrayal","name":"背叛","simple_description":"挑战\n能力的冷却时间大幅延长。","full_description":"", "favour_description":""},
+        {"key":"confusion","name":"迷惘","simple_description":"挑战\n敌人的特殊能力更强。出现特别的BOSS。","full_description":"", "favour_description":""},
+
+        {"key":"immortal","name":"不朽","simple_description":"升温\n敌人生成时具有1层永恒。","full_description":"", "favour_description":""},
+        {"key":"blessing","name":"祝福","simple_description":"升温\n敌人生成时具有1层免疫负面状态。","full_description":"", "favour_description":""},
+        {"key":"strength","name":"力量","simple_description":"升温\n敌人的攻击力提升6%。","full_description":"", "favour_description":""},
+        {"key":"agile","name":"敏捷","simple_description":"升温\n敌人的速度提升4%。","full_description":"", "favour_description":""},
+        {"key":"wisdom","name":"智慧","simple_description":"升温\n敌人的特殊能力效果提升5%。","full_description":"", "favour_description":""},
+        {"key":"faith","name":"信仰","simple_description":"升温\n敌人的生命值提升8%。","full_description":"", "favour_description":""},
+        {"key":"steady","name":"坚定","simple_description":"升温\n敌人受到的击退效果减少5%。","full_description":"", "favour_description":""},
+        {"key":"luck","name":"幸运","simple_description":"升温\n敌人受到负面状态时，有2%几率闪避它。","full_description":"", "favour_description":""},
+        {"key":"focus","name":"专注","simple_description":"升温\n敌人受到伤害时，有1%几率闪避它。","full_description":"", "favour_description":""},
+
+
+
+        {"key":"TownHall","name":"大本营","simple_description":"你此后遇到奖励牌的稀有度提升。","full_description":"", "favour_description":""},
+        {"key":"RunicAddition","name":" !RUNICNAME! ","simple_description":"Add !RUNICNAME!  !STAR! to your card pool.","full_description":"", "favour_description":""},
+        {"key":"PhotoCopier","name":"影印机","simple_description":"遗物\n你获得的符灵卡牌奖励，其数量x2。","full_description":"", "favour_description":""},
+
+
+
+
+
+
+
+
+
+
+        
+        {"key":"IceForbidden","name":"Ice Forbidden","simple_description":"Unlock Tier 6 runic Archill. Get her by crafting with 3 specific runics.","full_description":"", "favour_description":""},
+        {"key":"FireForbidden","name":"Fire Forbidden","simple_description":"Unlock Tier 6 runic Demon. Get it by crafting with 3 specific runics.","full_description":"", "favour_description":""},
+        {"key":"WindForbidden","name":"Wind Forbidden","simple_description":"Unlock Tier 6 runic Ancientwind Spirit. Get it by crafting with 3 specific runics.","full_description":"", "favour_description":""},
+        {"key":"SunForbidden","name":"Sun Forbidden","simple_description":"Unlock Tier 6 runic Icarus. Get him by crafting with 3 specific runics.","full_description":"", "favour_description":""},
+        {"key":"WorldForbidden","name":"World Forbidden","simple_description":"Unlock Tier 6 runic Wordtree Protector. Get her by crafting with 3 specific runics.","full_description":"", "favour_description":""},
+        {"key":"DoomForbidden","name":"Doom Forbidden","simple_description":"Unlock Tier 6 runic Ender Hunter. Get him by crafting with 3 specific runics.","full_description":"", "favour_description":""},
+
+
+        {"key":"goldenBoardStair","name":"Golden Rune-Stair","simple_description":"During【Golden Rune】, each enemy killed increases its multiplier by 0.2x(ability level).","full_description":"", "favour_description":""},
+        {"key":"goldenBoardStrengthen","name":"金色符文-强化","simple_description":"降低金色符文的冷却。","full_description":"", "favour_description":""},
+        {"key":"goldenBoardUnbound","name":"Golden Rune-Unbound","simple_description":"Your【Golden Rune】ability level is increased by 1 conditionlessly.","full_description":"", "favour_description":""},
+
+        {"key":"goldenFingerResonance","name":"Golden Finger-Resonance","simple_description":"【Golden Finger】's cooldown speed doubles on activation of【Golden Rune】.","full_description":"", "favour_description":""},
+        {"key":"goldenFingerStrengthen","name":"点金手-强化","simple_description":"提升点金手的奖励倍率。","full_description":"", "favour_description":""},
+        {"key":"goldenFingerUnbound","name":"Golden Finger-Unbound","simple_description":"Your【Golden Finger】ability level is increased by 1 conditionlessly.","full_description":"", "favour_description":""},
+
+        {"key":"spacialCurseCovet","name":"SpacialCurse-Covet","simple_description":"Enemies hit by【Spacial Curse】 drops extra (ability level) times $ and soul on death.","full_description":"", "favour_description":""},
+        {"key":"spacialCurseStrengthen","name":"深空诅咒-强化","simple_description":"深空诅咒的易伤层数翻倍。","full_description":"", "favour_description":""},
+        {"key":"spacialCurseUnbound","name":"Spacial Curse-Unbound","simple_description":"Your【Spacial Curse】ability level is increased by 1 conditionlessly.","full_description":"", "favour_description":""},
+
+        {"key":"battleFrontInvincible","name":"BattleFront-Invincible","simple_description":"【BattleFront】becomes invincible after refilled defence for 4 seconds.","full_description":"", "favour_description":""},
+        {"key":"battleFrontStrengthen","name":"战线-强化","simple_description":"降低战线的冷却。","full_description":"", "favour_description":""},
+        {"key":"battleFrontUnbound","name":"BattleFront-Unbound","simple_description":"Your【Battle Front】ability level is increased by 1 conditionlessly.","full_description":"", "favour_description":""},
+
+        {"key":"tidalCallFrost","name":"TidalCall-Frost","simple_description":"【Tidal Call】 also applies freeze and frostbite.","full_description":"", "favour_description":""},
+        {"key":"tidalCallStrengthen","name":"潮汐祈唤-强化","simple_description":"潮汐祈唤会额外召唤一道巨浪。","full_description":"", "favour_description":""},
+        {"key":"tidalCallUnbound","name":"Tidal Call-Unbound","simple_description":"Your【Tidal call】ability level is increased by 1 conditionlessly.","full_description":"", "favour_description":""},
+
+        {"key":"flashOrbMultiattack","name":"Prey-Predation","simple_description":"【Prey】's attacks apply 1 stun.","full_description":"", "favour_description":""},
+        {"key":"flashOrbStrengthen","name":"猛禽-强化","simple_description":"提升猛禽的攻击速度。","full_description":"", "favour_description":""},
+        {"key":"flashOrbUnbound","name":"Prey-Unbound","simple_description":"Your【Prey】ability level is increased by 1 conditionlessly.","full_description":"", "favour_description":""},
+
+        {"key":"nurture","name":"Nurture","simple_description":"Unlock crafting formula: Putting a runic on the output grid, turns to strengthern it by maretial runics' experiences. This won't cost the crafting points.","full_description":"", "favour_description":""},
+        {"key":"magic","name":"Magic","simple_description":"Attacks regens 0.25 extra mana.","full_description":"", "favour_description":""},
+        {"key":"swift","name":"Swift","simple_description":"Increase runics' experience gained by 50%。","full_description":"", "favour_description":""},
+        {"key":"extraction","name":"Extraction","simple_description":"Increase mining efficiency by 100%。","full_description":"", "favour_description":""},
+        {"key":"seer","name":"Seer","simple_description":"You can select runics in【Q】library, letting it can be auto purchased on refreshed out.","full_description":"", "favour_description":""},
+        {"key":"spiritSpeaker","name":"Spirit Speaker","simple_description":"Increase sould acquired by 50%。","full_description":"", "favour_description":""},
+
+        {"key":"tactic","name":"tactic","simple_description":"Unlock map selection. You can play the infinite mode with any map you bested in campaign mode.","full_description":"", "favour_description":""},
+            
+        {"key":"wealth","name":"wealth","simple_description":"Increase your $ and soul gained.","full_description":"", "favour_description":""},
+
+
+        {"key":"treasure","name":"treasure","simple_description":"Massively increase the loot levels.","full_description":"", "favour_description":""},
+
+        {"key":"recruit","name":"recruit","simple_description":"Seat lines +1。","full_description":"", "favour_description":""},
+
+        {"key":"brave","name":"brave","simple_description":"Your runics gain +10% attack and range.","full_description":"", "favour_description":""},
+        {"key":"guard","name":"guard","simple_description":"Your runics gain +10% armor and health.","full_description":"", "favour_description":""},
+
+        {"key":"expand","name":"expand","simple_description":"+1 population","full_description":"", "favour_description":""},
+        {"key":"beginner's pack","name":"beginner's pack","simple_description":"Start of combat: gain 2 bonus selections.","full_description":"", "favour_description":""},
+
+        {"key":"figure","name":"Mysterious mark","simple_description":"Start of combat: 2 grids getting a random mark. Runics on the marked grid gain corresponding kind, with a max of 3.","full_description":"", "favour_description":""},
+        {"key":"second wind","name":"Second Wind","simple_description":"Once per combat, when the front is falling, instead summon a ray of light destroying all normal enemies and send bosses to the spawn point. Revive all friendly runics and heal them to full health.","full_description":"", "favour_description":""}
+
+
+    ]
+}

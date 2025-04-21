@@ -1,0 +1,131 @@
+{
+    "uiString":
+    [
+        "The Runics","Start Game","Tech Tree","Breezy","Steady",     "Fracturity","Calamity","Finality","Reality","Abilities",
+ 
+        "Kinds","Totem","Equipment","Base","Game Over:",     "Frontline Lost","Manual quit","Answer the Call","(Game will end)","Choose Reward",
+
+        "Owned","Locked","Campaign","Campaign","Endless",      "Map","Victory","Choose Reward","Special Reward","",
+
+        "Celestral Lab","Collect","Upgrade","Base Facilities","",      "Quit Game","End Battle","Volume","Enable Tutorial","Back",
+
+        "Minimalist Runic Style", "Key Guide","Language","(Some changes might need resetting the game)","",     "Wave Info","Name","Attack","HP","Speed",
+
+
+
+
+        "Description","Runic Info","Runic Name","Kind Type","Skill",     "Skill Description","Auto Purchase","Based on Kinds","Based on Tier","",
+        
+
+        "Stats","Achievements","Achievements","Each achievement gives your Runics +1% <sprite=\"frenzy\" index=0 color=\"#FFEF00\"> Frenzy. Frenzy boosts most stats.","Completed Achievements:",         "Frenzy <sprite=\"frenzy\" index=0 color=\"#FFEF00\"> Gained:","","","","",
+        
+        "Locked","Upgrade","Max","Requires corresponding [Forbidden] card","Requires [Nurture] card",     "","","","","",
+
+        "Attack","Attack indicates damage dealt by normal attacks.","Armor","Reduces damage equal to armor value.","Attack Speed",    "Attacks per second. Max is 10. Excess speed converted to extra damage per hit.","Range","Distance the unit can attack.","Crit Chance","Chance for attacks and skills to crit.",
+
+        "Crit Damage","Damage multiplier when critting.","Base","From Skills","From Tech Tree",       "From Global Effects","From Kind Effects","From Relics","From Totems","From Runes",        
+
+        "From Celestral Cards","From Grid Buffs","From Frenzy","From Other Effects","From",     "","","","","",
+        "","","","","",     "","","","","",
+        "","","","","",     "","","","","",
+        "","","","","",     "","","","","",
+        "","","","","",     "","","","","",
+
+
+        "平原", "灯塔", "山谷", "护城河", "蜿蜒",      ""
+
+
+    
+    ],
+    "narrativeString":
+    [
+        "Welcome to 'The Runics'!",
+        "Enter Campaign 0 to start the tutorial, or disable it in the [ESC] menu.",
+        "",
+        "You've entered the battle interface.",
+        "Hold the mouse wheel and move the mouse to adjust the camera view.",
+        "Scroll the mouse wheel to zoom in and out.",
+        "The center of the screen is the battlefield. Enemies attack from the right. If they reach the far left, the frontline is lost.",
+        "'Runics' are your allied units. Your initial Runics are at the bottom of the battlefield, in the seat area.",
+        "Drag your Runics with the left mouse button and place them on the battlefield.",
+        "Well done!",
+
+        "Right-click a Runic to view its details.",
+        "'Vanguard' has short attack range, high armor, and high HP.",
+        "'Hunter' has long attack range but lower stats.",
+        "Drag 'Vanguard' to a position on the right side of your formation.",
+        "Above the battlefield is the shop. Your current $ is shown in the top-left corner.",
+        "Spend 4$ to buy another 'Vanguard'. Drag it onto the battlefield.",
+        "Spend another 4$ to buy a 'Frost Elemental'. Drag it onto the battlefield.",
+        "Right-click the 'Frost Elemental' to view its skills.",
+        "Its basic attacks can slow down enemies.",
+        "Press [D] to refresh the Runics available in the shop.",
+
+        "Spend 4$ to buy a 'Hunter'.",
+        "'Hunter' can't be deployed because your current level only allows 4 population on the field.",
+        "Press [F] to spend 4$ to purchase 4 EXP. Your experience bar is shown below the shop. Defeating enemies also gives EXP.",
+        "Leveling up increases your population cap by 1 and unlocks higher-tier Runics in the shop.",
+        "You found a third 'Vanguard'. Three copies of the same Runic can starup it.",
+        "Buy another 'Vanguard' and check its details.",
+        "It has become a 2-star unit, doubling its stats and slightly increasing attack speed.",
+        "Three 2-star Runics grants a 3-star... and so on, with no upper limit.",
+        "Use your stronger 'Vanguard' to defeat enemies.",
+        "Press [F] again to level up to 3. Long holding it can purchase EXP quickly.",
+
+
+        "Below the shop, the numbers show the chances of finding different rarity runics when refreshing.",
+        "At level 3, you can now find red (tier-2) Runics. Refresh again.",
+        "Spend 9$ to buy 'Skeleton Archer'.",
+        "Right-click the 'Skeleton Archer' to view its skills.",
+        "It has an active skill that triggers when its mana bar is full. Mana is gained over time or by attacking.",
+        "Its active skill shoots multiple scatter arrows. Try it out.",
+        "This is a tile with a 'Glimmer' mine grid. Place a mining-capable Runic on it to mine.",
+        "Spend 9$ to buy 'Engineer'.",
+        "Right-click the 'Engineer' to view its info.",
+        "The Engineer triggers mining effects at the end of each wave.",
+
+
+        "Some higher-tier Runics can trigger mining in other ways too.",
+        "Click the 'Skeleton Archer' to view its info.",
+        "Below its image, you can see its 'Race' and 'Class' kind types.",
+        "Its class is 'Marksman'.",
+        "Owning three different 'Marksman' Runics boosts attack and range.",
+        "'Hunter' is also an 'Marksman'.",
+        "Spend 9$ to buy 'Lightning Elemental', replace Frost Elemental by it.",
+        "Now you have three Marksmen! Their attack and range are boosted.",
+        "All your kind types displayed on the left(Display/hide the page by key [K])",
+        "Active kinds are shown in blue. Most require 2-3 different Runics of the same type to activate.",
+
+        "'Vanguard''s race 'Transcendence' is an exception. It activates only if it's the *only* Transcendence Runic, greatly boosting its stats.",
+        "This makes it extremely powerful with 'Transcendence' activated.",
+        "Move your camera to the left side of the battlefield. That’s the crafting table.",
+        "Place a Runic there and press [C] to sacrifice it into an 'equipment' item. The crafting table has limited uses.",
+        "Try sacrificing the 'Frost Elemental', and drag the resulting equipment item to the 'Skeleton Archer'.",
+        "This equipment grants 'Skeleton Archer' the Frost Elemental’s skill: both its attacks and scatter arrows now slow enemies.",
+        "If you use multiple Runics in the crafting table, this crafting forms a higher-tier unit.",
+        "Drag any Runic into the [x] box to the right of the shop to sell it for $1 less.",
+        "Try refreshing the shop again to find new Runics.",
+        "You’ve found two 'Ocean' Runics: 'Tidal caller' and 'Serpent'.",
+
+        "Buy and place them on the battlefield.",
+        "These two activate the runicer ability 'Tidal call'.",
+        "Press [A] to view your runicer ability.",
+        "After cooldown, it automatically activates and affects the battlefield.",
+        "Use 'Tidal call' to push enemies back.",
+        "Well done!",
+        "Excess $ can buy 'totem' upgrades.",
+        "Press [W] to open the totem menu.",
+        "Totem upgrades may seem small, but they strengthen all your runics or give you global effects.",
+        "",
+
+        "Every 10 waves, a powerful BOSS will appear.",
+        "Bosses have very high HP and take reduced debuffs.",
+        "In campaign mode, defeating the bosses of wave 20, 30 and 50 earns a star for that difficulty.",
+        "Buy Runics, starup them, activate bonds, and totem to power up and try reach wave 20.",
+        "If the fight is too hard, use loots to unlock boosts in the tech tree and reach higher waves.",
+        "This concludes the tutorial. Good luck!"
+
+    ]
+
+
+}
