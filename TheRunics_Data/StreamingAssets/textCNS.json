@@ -3,7 +3,7 @@
     [
         {"key":"Archill","name":"寒冰射手","simple_description":"攻击能多重攻击、减速敌人、并使被减速的敌人受到伤害提升。能发射大量散射弹幕。","full_description":"--", "favour_description":""},
         {"key":"TheDemon","name":"恶魔","simple_description":"攻击力大幅提升，且会附加点燃、易伤与击退。攻击变为环绕状。","full_description":"--", "favour_description":""},
-        {"key":"AncientWind","name":"御风之灵","simple_description":"使友方符灵的攻击速度与攻击距离大幅提升。","full_description":"--", "favour_description":""},
+        {"key":"AncientWind","name":"御风之灵","simple_description":"使周围友方符灵的攻击速度与攻击距离大幅提升。","full_description":"--", "favour_description":""},
         {"key":"SunChaser","name":"伊卡洛斯","simple_description":"攻击子弹飞行距离越远，造成伤害越高。","full_description":"--", "favour_description":""},
         {"key":"WorldTree","name":"世界树守护者","simple_description":"使周围的友方符灵获得所有的正面效果。","full_description":"--", "favour_description":""},
         {"key":"EnderHunter","name":"终末猎手","simple_description":"能发射终末之箭，给予所有的负面效果。","full_description":"--", "favour_description":""},
@@ -73,9 +73,9 @@
         
         {"key":"IceStorm","name":"寒霜风暴","simple_description":"被动：攻击必定附加多重攻击、会使敌人获得冰冷与冻伤。主动：发射大量散射箭矢。","full_description":"被动：攻击时必定附加4次多重攻击、使敌人获得 !X! 层冰冷与冻伤。\n主动：射出共 !Y! 发无目标弹幕，每发箭矢造成 !D! %攻击力伤害。 !PS! \n冰冷：每有1层冰冷，行动速度降低1%。最多减至33%。每秒层数-1。\n冻伤：每有1层冰冷，受到伤害提升1%。", "favour_description":""},
         {"key":"FirePossession","name":"陷身之火","simple_description":"被动：大幅提升攻击力，攻击会附加点燃、易伤与击退。子弹无法锁定目标而会环绕自身射程的50%旋转。","full_description":"被动：提升 !X! %攻击力。攻击会附加等同于伤害的点燃以及 !Y! 层易伤与弱击退。子弹无法锁定目标而会环绕自身射程的50%旋转。", "favour_description":""},
-        {"key":"WindRider","name":"风中行者","simple_description":"被动：5*5范围内的友方符灵提升攻击距离与攻击速度。","full_description":"被动：5*5范围内的友方符灵提升 !X! %攻击距离与 !Y! %攻击速度。", "favour_description":""},
+        {"key":"WindRider","name":"风中行者","simple_description":"被动：3*3范围内的友方符灵提升攻击距离与攻击速度。","full_description":"被动：3*3范围内的友方符灵提升 !X! %攻击距离与 !Y! %攻击速度。", "favour_description":""},
         {"key":"SunChasing","name":"逐日","simple_description":"被动：发射的子弹飞行距离越远，伤害越高。","full_description":"被动：子弹每飞行1格便提升 !X! %造成的伤害。（加算）", "favour_description":""},
-        {"key":"WorldFavour","name":"世界恩泽","simple_description":"使5*5范围内的友方符灵获得所有可获取的正面效果。","full_description":"使5*5范围内的友方符灵获得所有可获取的正面效果。", "favour_description":""},
+        {"key":"WorldFavour","name":"世界恩泽","simple_description":"使3*3范围内的友方符灵获得所有可获取的正面效果。","full_description":"使3*3范围内的友方符灵获得所有可获取的正面效果。", "favour_description":""},
         {"key":"EnderShot","name":"终末之箭","simple_description":"被动：敌人生成时有几率向其发射终末之箭，对BOSS必定触发。主动：向一名敌人射出终末之箭，造成伤害并给予所有的负面效果。","full_description":"被动：敌人生成时有 !X! 几率对其射出终末之箭，对BOSS必定触发。主动：对一名敌人射出终末之箭，对其造成 !D! %攻击力的伤害，以及所有的负面效果。", "favour_description":""},
 
         {"key":"BladeWeather","name":"刀锋之雨","simple_description":"被动：攻击会附加流血。造成攻击伤害时，向目标再发射数枚飞刃，不能循环触发。","full_description":"被动：攻击附加 !X! 加上攻击力 !D! %的流血。造成攻击伤害时，向目标再发射 !Y! 枚飞刃造成攻击力 !D! %的伤害，不能循环触发。 !PS! \n流血：每有1层流血，受到的伤害提升1。", "favour_description":""},
@@ -89,7 +89,7 @@
         {"key":"BloodSacrifice","name":"鲜血祭祀","simple_description":"被动：每当该符灵获得治疗，触发微量采矿效果。","full_description":"被动：每当该符灵获得治疗，触发 !X! %采矿效果。(满生命值时也能触发)", "favour_description":""},
         {"key":"Howl","name":"嗥叫","simple_description":"使周围的友方符灵获得集中，提升它们的攻击伤害。","full_description":"使周围的友方符灵获得 !X! 层集中。 !PS! \n集中：攻击伤害增加50%。每有1层集中，额外提升1%。每次触发，层数-1。", "favour_description":""},
         {"key":"SealedSun","name":"封印太阳","simple_description":"吟唱数秒然后爆炸攻击周围区域。期间每获得1点法力都会提升爆炸半径与伤害。","full_description":"吟唱 !X! 秒然后爆炸攻击周围区域，造成 !D! %攻击力的伤害。期间每获得1点法力都会提升爆炸半径与伤害。", "favour_description":""},
-        {"key":"FlyingWatchtower","name":"Y轴","simple_description":"被动：哨塔投弹手具有永久的无实体。","full_description":"被动：哨塔投弹手具有永久的无实体。 !PS! \n无实体：不能被攻击，也不能阻拦敌人。", "favour_description":""},
+        {"key":"FlyingWatchtower","name":"Y轴","simple_description":"被动：哨塔投弹手具有永久的无实体。且获得攻击力提升。","full_description":"被动：提升 !X! % 攻击力。哨塔投弹手具有永久的无实体。 !PS! \n无实体：不能被攻击，也不能阻拦敌人。", "favour_description":""},
         {"key":"BrilliantLight","name":"光落万丈","simple_description":"被动：攻击时会使敌人获得失明，具有失明的敌人攻击只能造成1点伤害，然后其对失明免疫。","full_description":"被动：攻击时会使敌人获得 !X! 层失明与失明免疫。 !PS! \n60层元素活性：追加1层失明。\n200层元素活性：追加1层失明。\n750层元素活性：追加2层失明。\n失明：攻击只能造成1点伤害。每次触发，层数-1。", "favour_description":""},
         {"key":"MeteorShower","name":"流星雨","simple_description":"召唤流星雨攻击数个随机敌人。","full_description":"召唤流星雨攻击战场上的 !X! 个随机敌人，对每个敌人造成 !D! %攻击力的伤害。", "favour_description":""},
         {"key":"FireBreathe","name":"火焰吐息","simple_description":"朝前方喷出一个大火球，伤害、燃烧与击退所有击中的敌人。","full_description":"朝前方喷出一个大火球，对所有击中的敌人造成 !D! %攻击力的伤害、伤害数值 !X! %层数的燃烧以及弱击退。", "favour_description":""},
@@ -573,12 +573,12 @@
 
 
         
-        {"key":"IceForbidden","name":"寒冰禁咒","simple_description":"解锁6阶符灵寒冰射手。利用特定的三个符灵来合成，即可获得它。","full_description":"", "favour_description":""},
-        {"key":"FireForbidden","name":"火焰禁咒","simple_description":"解锁6阶符灵恶魔。利用特定的三个符灵来合成，即可获得它。","full_description":"", "favour_description":""},
-        {"key":"WindForbidden","name":"风暴禁咒","simple_description":"解锁6阶符灵远古风灵。利用特定的三个符灵来合成，即可获得它。","full_description":"", "favour_description":""},
-        {"key":"SunForbidden","name":"太阳禁咒","simple_description":"解锁6阶符灵伊卡洛斯。利用特定的三个符灵来合成，即可获得它。","full_description":"", "favour_description":""},
-        {"key":"WorldForbidden","name":"世界禁咒","simple_description":"解锁6阶符灵世界树守护者。利用特定的三个符灵来合成，即可获得它。","full_description":"", "favour_description":""},
-        {"key":"DoomForbidden","name":"末日禁咒","simple_description":"解锁6阶符灵终末猎手。利用特定的三个符灵来合成，即可获得它。","full_description":"", "favour_description":""},
+        {"key":"IceForbidden","name":"寒冰禁咒","simple_description":"解锁6阶符灵寒冰射手。利用特定的三个符灵来合成，即可获得它。（在【Q】图鉴中寻找它们！）","full_description":"", "favour_description":""},
+        {"key":"FireForbidden","name":"火焰禁咒","simple_description":"解锁6阶符灵恶魔。利用特定的三个符灵来合成，即可获得它。（在【Q】图鉴中寻找它们！）","full_description":"", "favour_description":""},
+        {"key":"WindForbidden","name":"风暴禁咒","simple_description":"解锁6阶符灵远古风灵。利用特定的三个符灵来合成，即可获得它。（在【Q】图鉴中寻找它们！）","full_description":"", "favour_description":""},
+        {"key":"SunForbidden","name":"太阳禁咒","simple_description":"解锁6阶符灵伊卡洛斯。利用特定的三个符灵来合成，即可获得它。（在【Q】图鉴中寻找它们！）","full_description":"", "favour_description":""},
+        {"key":"WorldForbidden","name":"世界禁咒","simple_description":"解锁6阶符灵世界树守护者。利用特定的三个符灵来合成，即可获得它。（在【Q】图鉴中寻找它们！）","full_description":"", "favour_description":""},
+        {"key":"DoomForbidden","name":"末日禁咒","simple_description":"解锁6阶符灵终末猎手。利用特定的三个符灵来合成，即可获得它。（在【Q】图鉴中寻找它们！）","full_description":"", "favour_description":""},
 
 
         {"key":"goldenBoardStair","name":"金色符文-阶梯","simple_description":"【金色符文】期间每击杀一个敌人便提升奖励倍数0.2x（能力等级）。","full_description":"", "favour_description":""},
